@@ -1,0 +1,527 @@
+@prefix : <http://visualdataweb.org/CertificateRequestOntology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://visualdataweb.org/CertificateRequestOntology/> .
+
+<http://visualdataweb.org/CertificateRequestOntology/> rdf:type owl:Ontology ;
+                                                        <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" ;
+                                                        <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en ;
+                                                        <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en ;
+                                                        owl:versionInfo "0.1"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.example.org/CertificateRequestOntology/IndirizzoPA
+<http://www.example.org/CertificateRequestOntology/IndirizzoPA> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                                rdfs:range <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                                rdfs:label "Indirizzo PA"@en ,
+                                                                           "IndirizzoPA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/InoltrataAllaPA
+<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                    rdfs:range <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                                    rdfs:label "Inoltrata Alla PA"@en ,
+                                                                               "InoltrataAllaPA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/PAGestisce
+<http://www.example.org/CertificateRequestOntology/PAGestisce> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/PA_Gestisce
+<http://www.example.org/CertificateRequestOntology/PA_Gestisce> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo
+<http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/gestitoDA
+<http://www.example.org/CertificateRequestOntology/gestitoDA> rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain <http://www.example.org/CertificateRequestOntology/Certificato> ;
+                                                              rdfs:range <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                              rdfs:label "gestito Da"@en ,
+                                                                         "gestitoDA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude
+<http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato
+<http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/indirizzoRichiedente
+<http://www.example.org/CertificateRequestOntology/indirizzoRichiedente> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori
+<http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori> rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/CertificateRequestOntology/relativaAGruppo
+<http://www.example.org/CertificateRequestOntology/relativaAGruppo> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                    rdfs:range <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> ;
+                                                                    rdfs:label "relativaAGruppo"@en .
+
+
+###  http://www.example.org/CertificateRequestOntology/relativa_A
+<http://www.example.org/CertificateRequestOntology/relativa_A> rdf:type owl:ObjectProperty ;
+                                                               rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                               rdfs:range <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                               rdfs:label "relativa A"@en .
+
+
+###  http://www.example.org/CertificateRequestOntology/richiedenteAppartiene
+<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                          rdfs:range <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> ;
+                                                                          rdfs:label "richiedente Appartiene"@en ,
+                                                                                     "richiedenteAppartiene"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente
+<http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.example.org/CertificateRequestOntology/Cap
+<http://www.example.org/CertificateRequestOntology/Cap> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                        rdfs:range rdfs:Literal ;
+                                                        rdfs:label "Cap"@en ,
+                                                                   "Cap"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Cellulare
+<http://www.example.org/CertificateRequestOntology/Cellulare> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                              rdfs:range rdfs:Literal ;
+                                                              rdfs:label "Cellulare"@en ,
+                                                                         "Cellulare"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Codice_Fiscale
+<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                   rdfs:range rdfs:Literal ;
+                                                                   rdfs:label "Codice Fiscale"@en ,
+                                                                              "Codice_Fiscale"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Cognome
+<http://www.example.org/CertificateRequestOntology/Cognome> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                            rdfs:range rdfs:Literal ;
+                                                            rdfs:label "Cognome"@en ,
+                                                                       "Cognome"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Comune
+<http://www.example.org/CertificateRequestOntology/Comune> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                           rdfs:range rdfs:Literal ;
+                                                           rdfs:label "Comune"@en ,
+                                                                      "Comune"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Comune_Matrimonio
+<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                      rdfs:range rdfs:Literal ;
+                                                                      rdfs:label "Comune Matrimonio"@en ,
+                                                                                 "Comune_Matrimonio"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre
+<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                           rdfs:range rdfs:Literal ;
+                                                                           rdfs:label "Comune Residenza Madre"@en ,
+                                                                                      "Comune_Residenza_Madre"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Data_Richiesta
+<http://www.example.org/CertificateRequestOntology/Data_Richiesta> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                   rdfs:range rdfs:Literal ;
+                                                                   rdfs:label "Data Richiesta"@en ,
+                                                                              "Data_Richiesta"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Data_di_Nascita
+<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "Data di Nascita"@en ,
+                                                                               "Data_di_Nascita"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Email
+<http://www.example.org/CertificateRequestOntology/Email> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                          rdfs:range rdfs:Literal ;
+                                                          rdfs:label "Email"@en ,
+                                                                     "Email"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Email_PA
+<http://www.example.org/CertificateRequestOntology/Email_PA> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                             rdfs:range rdfs:Literal ;
+                                                             rdfs:label "Email PA"@en ,
+                                                                        "Email_PA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Eta
+<http://www.example.org/CertificateRequestOntology/Eta> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                        rdfs:range xsd:integer ;
+                                                        rdfs:label "Eta"@en ,
+                                                                   "Eta"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Luogo
+<http://www.example.org/CertificateRequestOntology/Luogo> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                          rdfs:range rdfs:Literal ;
+                                                          rdfs:label "Luogo"@en ,
+                                                                     "Luogo"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Luogo_Nascita
+<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                  rdfs:range rdfs:Literal ;
+                                                                  rdfs:label "Luogo Nascita"@en ,
+                                                                             "Luogo_Nascita"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Luogo_Richiesta
+<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "Luogo Richiesta"@en ,
+                                                                               "Luogo_Richiesta"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Motivo_Richiesta
+<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                     rdfs:range rdfs:Literal ;
+                                                                     rdfs:label "Motivo Richiesta"@en ,
+                                                                                "Motivo_Richiesta"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Nazione
+<http://www.example.org/CertificateRequestOntology/Nazione> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                            rdfs:range rdfs:Literal ;
+                                                            rdfs:label "Nazione"@en ,
+                                                                       "Nazione"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Nome
+<http://www.example.org/CertificateRequestOntology/Nome> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                         rdfs:range rdfs:Literal ;
+                                                         rdfs:label "Nome"@en ,
+                                                                    "Nome"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto
+<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                             rdfs:range xsd:string ;
+                                                                             rdfs:label "Nome Certificato Richiesto"@en ,
+                                                                                        "NomeCertificatoRichiesto"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/NomeGruppo
+<http://www.example.org/CertificateRequestOntology/NomeGruppo> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> ;
+                                                               rdfs:range xsd:string ;
+                                                               rdfs:label "Nome Gruppo"@en ,
+                                                                          "NomeGruppo"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Nome_Certificato
+<http://www.example.org/CertificateRequestOntology/Nome_Certificato> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.example.org/CertificateRequestOntology/Certificato> ;
+                                                                     rdfs:range xsd:string ;
+                                                                     rdfs:label "Nome Certificato"@en ,
+                                                                                "Nome_Certificato"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Nome_PA
+<http://www.example.org/CertificateRequestOntology/Nome_PA> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                            rdfs:range rdfs:Literal ;
+                                                            rdfs:label "Nome PA"@en ,
+                                                                       "Nome_PA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Note
+<http://www.example.org/CertificateRequestOntology/Note> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                         rdfs:range rdfs:Literal ;
+                                                         rdfs:label "Note"@en ,
+                                                                    "Note"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Numero
+<http://www.example.org/CertificateRequestOntology/Numero> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                           rdfs:range rdfs:Literal ;
+                                                           rdfs:label "Numero"@en ,
+                                                                      "Numero"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/NumeroRichiedenti
+<http://www.example.org/CertificateRequestOntology/NumeroRichiedenti> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> ;
+                                                                      rdfs:range rdfs:Literal ;
+                                                                      rdfs:label "Numero Richiedenti"@en .
+
+
+###  http://www.example.org/CertificateRequestOntology/Paese_di_Nascita
+<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                     rdfs:range rdfs:Literal ;
+                                                                     rdfs:label "Paese di Nascita"@en ,
+                                                                                "Paese_di_Nascita"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Plurilingua
+<http://www.example.org/CertificateRequestOntology/Plurilingua> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> ;
+                                                                rdfs:range rdfs:Literal ;
+                                                                rdfs:label "Plurilingua"@en ,
+                                                                           "Plurilingua"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Provincia
+<http://www.example.org/CertificateRequestOntology/Provincia> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                              rdfs:range rdfs:Literal ;
+                                                              rdfs:label "Provincia"@en ,
+                                                                         "Provincia"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio
+<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                         rdfs:range rdfs:Literal ;
+                                                                         rdfs:label "Provincia Matrimonio"@en ,
+                                                                                    "Provincia_Matrimonio"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Provincia_Nascita
+<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                      rdfs:range rdfs:Literal ;
+                                                                      rdfs:label "Provincia Nascita"@en ,
+                                                                                 "Provincia_Nascita"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Regione
+<http://www.example.org/CertificateRequestOntology/Regione> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                            rdfs:range rdfs:Literal ;
+                                                            rdfs:label "Regione"@en ,
+                                                                       "Regione"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno
+<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://www.example.org/CertificateRequestOntology/Residenza> ;
+                                                                      rdfs:range rdfs:Literal ;
+                                                                      rdfs:label "Residenza Ad Anno"@en ,
+                                                                                 "Residenza_Ad_Anno"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno
+<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://www.example.org/CertificateRequestOntology/Residenza> ;
+                                                                      rdfs:range rdfs:Literal ;
+                                                                      rdfs:label "Residenza Da Anno"@en ,
+                                                                                 "Residenza_Da_Anno"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Sesso
+<http://www.example.org/CertificateRequestOntology/Sesso> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                          rdfs:range xsd:string ;
+                                                          rdfs:label "Sesso"@en ,
+                                                                     "Sesso"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Sito_PA
+<http://www.example.org/CertificateRequestOntology/Sito_PA> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> ;
+                                                            rdfs:range rdfs:Literal ;
+                                                            rdfs:label "Sito PA"@en ,
+                                                                       "Sito_PA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Stato_Civile
+<http://www.example.org/CertificateRequestOntology/Stato_Civile> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                 rdfs:range xsd:string ;
+                                                                 rdfs:label "Stato Civile"@en ,
+                                                                            "Stato_Civile"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Telefono
+<http://www.example.org/CertificateRequestOntology/Telefono> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                             rdfs:range rdfs:Literal ;
+                                                             rdfs:label "Telefono"@en ,
+                                                                        "Telefono"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/TipologiaGruppo
+<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:domain <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> ;
+                                                                    rdfs:range xsd:string ;
+                                                                    rdfs:label "Tipologia Gruppo"@en ,
+                                                                               "TipologiaGruppo"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Via
+<http://www.example.org/CertificateRequestOntology/Via> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                        rdfs:range rdfs:Literal ;
+                                                        rdfs:label "Via"@en ,
+                                                                   "Via"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/fData_Matrimonio
+<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.example.org/CertificateRequestOntology/Richiedente> ;
+                                                                     rdfs:range rdfs:Literal ;
+                                                                     rdfs:label "Data Matrimonio"@en ,
+                                                                                "fData_Matrimonio"@iri-based .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.example.org/CertificateRequestOntology/Certificato
+<http://www.example.org/CertificateRequestOntology/Certificato> rdf:type owl:Class ;
+                                                                rdfs:label "Certificato"@en ,
+                                                                           "Certificato"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Domicilio
+<http://www.example.org/CertificateRequestOntology/Domicilio> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                              rdfs:label "Domicilio"@en .
+
+
+###  http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti
+<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo> ;
+                                                                                         owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/RichiestaCertificato>
+                                                                                       ] ,
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude> ;
+                                                                                         owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/Richiedente>
+                                                                                       ] ;
+                                                                       rdfs:label "Gruppo Richiedenti"@en ,
+                                                                                  "Gruppo_Richiedenti"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Indirizzo
+<http://www.example.org/CertificateRequestOntology/Indirizzo> rdf:type owl:Class ;
+                                                              rdfs:label "Indirizzo"@en ,
+                                                                         "Indirizzo"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Indirizzo_PA
+<http://www.example.org/CertificateRequestOntology/Indirizzo_PA> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                                 rdfs:label "Indirizzo PA"@en ,
+                                                                            "Indirizzo_PA"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Publica_Amministrazione
+<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://www.example.org/CertificateRequestOntology/PAGestisce> ;
+                                                                                              owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/Certificato>
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://www.example.org/CertificateRequestOntology/PA_Gestisce> ;
+                                                                                              owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/RichiestaCertificato>
+                                                                                            ] ;
+                                                                            rdfs:label "Publica Amministrazione"@en ,
+                                                                                       "Publica_Amministrazione"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Residenza
+<http://www.example.org/CertificateRequestOntology/Residenza> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.example.org/CertificateRequestOntology/Indirizzo> ;
+                                                              rdfs:label "Residenza"@en ,
+                                                                         "Residenza"@iri-based .
+
+
+###  http://www.example.org/CertificateRequestOntology/Richiedente
+<http://www.example.org/CertificateRequestOntology/Richiedente> rdf:type owl:Class ;
+                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://www.example.org/CertificateRequestOntology/indirizzoRichiedente> ;
+                                                                                  owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/Indirizzo>
+                                                                                ] ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente> ;
+                                                                                  owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/RichiestaCertificato>
+                                                                                ] ;
+                                                                rdfs:label "Richiedente"@en .
+
+
+###  http://www.example.org/CertificateRequestOntology/RichiestaCertificato
+<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato> ;
+                                                                                           owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/Indirizzo>
+                                                                                         ] ,
+                                                                                         [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori> ;
+                                                                                           owl:someValuesFrom <http://www.example.org/CertificateRequestOntology/Certificato>
+                                                                                         ] ;
+                                                                         rdfs:label "Richiesta Certificato"@en ,
+                                                                                    "RichiestaCertificato"@iri-based .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
