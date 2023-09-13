@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Residenza" "base:Domicilio" "base:Indirizzo" "base:Indirizzo_PA" ; /*classes style*/
+	"base:Residenza" -> "base:Indirizzo" [ label = "rdfs:subClassOf" ];
+	"base:Domicilio" -> "base:Indirizzo" [ label = "rdfs:subClassOf" ];
+	"base:Indirizzo_PA" -> "base:Indirizzo" [ label = "rdfs:subClassOf" ];
+
+}
