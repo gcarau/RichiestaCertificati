@@ -2,73 +2,73 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ]
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/PAGestisce"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/PAGestisce"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Certificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ]
 }, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/PA_Gestisce"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/PA_Gestisce"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ]
 }, {
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/indirizzoRichiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzoRichiedente"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/richiestaSingoloRichiedente"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ]
 }, {
   "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizziRichiestaCertificato"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
   "@id" : "_:genid8",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Certificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -80,7 +80,7 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://visualdataweb.org/CertificateRequestOntology/",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Giovanni Carau"
@@ -98,10 +98,10 @@
     "@value" : "0.1"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Cap",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Cap",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -114,10 +114,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Cellulare",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Cellulare",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -130,7 +130,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Certificato",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -140,10 +140,10 @@
     "@value" : "Certificato"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Codice_Fiscale",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -156,10 +156,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Cognome",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -172,10 +172,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Comune",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -188,10 +188,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Comune_Matrimonio",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Matrimonio",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -204,10 +204,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Residenza_Madre",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -220,10 +220,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Data_Richiesta",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Richiesta",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -236,10 +236,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Data_di_Nascita",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_Nascita",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -252,20 +252,20 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Domicilio",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Domicilio",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Domicilio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Email",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Email",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -278,10 +278,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Email_PA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Email_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -294,10 +294,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Eta",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Eta",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -310,7 +310,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -325,7 +325,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -335,10 +335,10 @@
     "@value" : "Indirizzo"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/IndirizzoPA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/IndirizzoPA",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -348,10 +348,10 @@
     "@value" : "IndirizzoPA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo_PA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -361,13 +361,13 @@
     "@value" : "Indirizzo_PA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/InoltrataAllaPA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -377,13 +377,13 @@
     "@value" : "InoltrataAllaPA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Luogo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -396,10 +396,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Luogo_Nascita",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Nascita",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -412,10 +412,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Luogo_Richiesta",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Richiesta",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -428,10 +428,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Motivo_Richiesta",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_Richiesta",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -444,10 +444,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Nazione",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nazione",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -460,10 +460,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Nome",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -476,10 +476,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/NomeCertificatoRichiesto",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -492,10 +492,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/NomeGruppo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/NomeGruppo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -508,10 +508,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Nome_Certificato",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Certificato",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Certificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -524,10 +524,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Nome_PA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -540,10 +540,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Note",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Note",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -556,10 +556,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Numero",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -572,10 +572,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/NumeroRichiedenti",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/NumeroRichiedenti",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -585,16 +585,16 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/PAGestisce",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/PAGestisce",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/PA_Gestisce",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/PA_Gestisce",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Paese_di_Nascita",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Paese_di_Nascita",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -607,10 +607,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Plurilingua",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Plurilingua",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -623,10 +623,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Provincia",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -639,10 +639,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Matrimonio",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -655,10 +655,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Provincia_Nascita",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Nascita",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -671,7 +671,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -686,10 +686,10 @@
     "@id" : "_:genid4"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Regione",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Regione",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -702,7 +702,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Residenza",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -712,13 +712,13 @@
     "@value" : "Residenza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza_Ad_Anno",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Residenza"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -731,10 +731,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza_Da_Anno",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Residenza"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -747,7 +747,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -759,7 +759,7 @@
     "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -774,10 +774,10 @@
     "@id" : "_:genid8"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Sesso",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Sesso",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -790,10 +790,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Sito_PA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Sito_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -806,10 +806,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Stato_Civile",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Civile",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -822,10 +822,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Telefono",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Telefono",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -838,10 +838,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/TipologiaGruppo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/TipologiaGruppo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -854,10 +854,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/Via",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Via",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Indirizzo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -870,13 +870,13 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/fData_Matrimonio",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/fData_Matrimonio",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -889,10 +889,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/gestitoDA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/gestitoDA",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Certificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -902,51 +902,51 @@
     "@value" : "gestitoDA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizziRichiestaCertificato",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/indirizzoRichiedente",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzoRichiedente",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/relativaAGruppo",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/relativaAGruppo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "relativaAGruppo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/relativa_A",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/relativa_A",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/RichiestaCertificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "relativa A"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/richiedenteAppartiene",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -956,9 +956,9 @@
     "@value" : "richiedenteAppartiene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
   } ]
 }, {
-  "@id" : "http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/richiestaSingoloRichiedente",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 } ]
