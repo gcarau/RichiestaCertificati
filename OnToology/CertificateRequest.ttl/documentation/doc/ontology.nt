@@ -1,8 +1,8 @@
-<http://visualdataweb.org/CertificateRequestOntology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://visualdataweb.org/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" .
-<http://visualdataweb.org/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en .
-<http://visualdataweb.org/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en .
-<http://visualdataweb.org/CertificateRequestOntology/> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"@en .
 # 
 # 
 # #################################################################
@@ -30,69 +30,69 @@
 # #################################################################
 # 
 # 
-# http://www.example.org/CertificateRequestOntology/IndirizzoPA
-<http://www.example.org/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
-<http://www.example.org/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "IndirizzoPA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "IndirizzoPA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/InoltrataAllaPA
-<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "Inoltrata Alla PA"@en .
-<http://www.example.org/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "InoltrataAllaPA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "Inoltrata Alla PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "InoltrataAllaPA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/PAGestisce
-<http://www.example.org/CertificateRequestOntology/PAGestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PAGestisce
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PAGestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/PA_Gestisce
-<http://www.example.org/CertificateRequestOntology/PA_Gestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PA_Gestisce
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PA_Gestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo
-<http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/effettuaRichiestaGruppo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/effettuaRichiestaGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/gestitoDA
-<http://www.example.org/CertificateRequestOntology/gestitoDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Certificato> .
-<http://www.example.org/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#label> "gestito Da"@en .
-<http://www.example.org/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#label> "gestitoDA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#label> "gestito Da"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gestitoDA> <http://www.w3.org/2000/01/rdf-schema#label> "gestitoDA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude
-<http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gruppoRichiedentiInclude
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gruppoRichiedentiInclude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato
-<http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizziRichiestaCertificato
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizziRichiestaCertificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/indirizzoRichiedente
-<http://www.example.org/CertificateRequestOntology/indirizzoRichiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizzoRichiedente
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizzoRichiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori
-<http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/necessitaCertificatiMandatori
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/necessitaCertificatiMandatori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.example.org/CertificateRequestOntology/relativaAGruppo
-<http://www.example.org/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> .
-<http://www.example.org/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "relativaAGruppo"@en .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativaAGruppo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativaAGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "relativaAGruppo"@en .
 # 
-# http://www.example.org/CertificateRequestOntology/relativa_A
-<http://www.example.org/CertificateRequestOntology/relativa_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#label> "relativa A"@en .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativa_A
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativa_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/relativa_A> <http://www.w3.org/2000/01/rdf-schema#label> "relativa A"@en .
 # 
-# http://www.example.org/CertificateRequestOntology/richiedenteAppartiene
-<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> .
-<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#label> "richiedente Appartiene"@en .
-<http://www.example.org/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#label> "richiedenteAppartiene"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#label> "richiedente Appartiene"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiedenteAppartiene> <http://www.w3.org/2000/01/rdf-schema#label> "richiedenteAppartiene"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente
-<http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiestaSingoloRichiedente
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiestaSingoloRichiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # 
 # 
@@ -103,284 +103,284 @@
 # #################################################################
 # 
 # 
-# http://www.example.org/CertificateRequestOntology/Cap
-<http://www.example.org/CertificateRequestOntology/Cap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#label> "Cap"@en .
-<http://www.example.org/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#label> "Cap"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#label> "Cap"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cap> <http://www.w3.org/2000/01/rdf-schema#label> "Cap"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Cellulare
-<http://www.example.org/CertificateRequestOntology/Cellulare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulare"@en .
-<http://www.example.org/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulare"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulare"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cellulare> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulare"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Codice_Fiscale
-<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#label> "Codice Fiscale"@en .
-<http://www.example.org/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#label> "Codice_Fiscale"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#label> "Codice Fiscale"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Codice_Fiscale> <http://www.w3.org/2000/01/rdf-schema#label> "Codice_Fiscale"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Cognome
-<http://www.example.org/CertificateRequestOntology/Cognome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#label> "Cognome"@en .
-<http://www.example.org/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#label> "Cognome"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#label> "Cognome"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Cognome> <http://www.w3.org/2000/01/rdf-schema#label> "Cognome"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Comune
-<http://www.example.org/CertificateRequestOntology/Comune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#label> "Comune"@en .
-<http://www.example.org/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#label> "Comune"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#label> "Comune"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune> <http://www.w3.org/2000/01/rdf-schema#label> "Comune"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Comune_Matrimonio
-<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Comune Matrimonio"@en .
-<http://www.example.org/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Comune_Matrimonio"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Comune Matrimonio"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Comune_Matrimonio"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre
-<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#label> "Comune Residenza Madre"@en .
-<http://www.example.org/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#label> "Comune_Residenza_Madre"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#label> "Comune Residenza Madre"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Comune_Residenza_Madre> <http://www.w3.org/2000/01/rdf-schema#label> "Comune_Residenza_Madre"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Data_Richiesta
-<http://www.example.org/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Data Richiesta"@en .
-<http://www.example.org/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Data_Richiesta"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Data Richiesta"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Data_Richiesta"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Data_di_Nascita
-<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Data di Nascita"@en .
-<http://www.example.org/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Data_di_Nascita"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Data di Nascita"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Data_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Data_di_Nascita"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Email
-<http://www.example.org/CertificateRequestOntology/Email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@en .
-<http://www.example.org/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email> <http://www.w3.org/2000/01/rdf-schema#label> "Email"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Email_PA
-<http://www.example.org/CertificateRequestOntology/Email_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email PA"@en .
-<http://www.example.org/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email_PA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email_PA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Eta
-<http://www.example.org/CertificateRequestOntology/Eta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.example.org/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#label> "Eta"@en .
-<http://www.example.org/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#label> "Eta"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#label> "Eta"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Eta> <http://www.w3.org/2000/01/rdf-schema#label> "Eta"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Luogo
-<http://www.example.org/CertificateRequestOntology/Luogo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@en .
-<http://www.example.org/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Luogo_Nascita
-<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo Nascita"@en .
-<http://www.example.org/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo_Nascita"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo Nascita"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo_Nascita"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Luogo_Richiesta
-<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo Richiesta"@en .
-<http://www.example.org/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo_Richiesta"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo Richiesta"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Luogo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo_Richiesta"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Motivo_Richiesta
-<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Motivo Richiesta"@en .
-<http://www.example.org/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Motivo_Richiesta"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Motivo Richiesta"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Motivo_Richiesta> <http://www.w3.org/2000/01/rdf-schema#label> "Motivo_Richiesta"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Nazione
-<http://www.example.org/CertificateRequestOntology/Nazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione"@en .
-<http://www.example.org/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nazione> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Nome
-<http://www.example.org/CertificateRequestOntology/Nome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#label> "Nome"@en .
-<http://www.example.org/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#label> "Nome"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#label> "Nome"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome> <http://www.w3.org/2000/01/rdf-schema#label> "Nome"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto
-<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Certificato Richiesto"@en .
-<http://www.example.org/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#label> "NomeCertificatoRichiesto"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Certificato Richiesto"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeCertificatoRichiesto> <http://www.w3.org/2000/01/rdf-schema#label> "NomeCertificatoRichiesto"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/NomeGruppo
-<http://www.example.org/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> .
-<http://www.example.org/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Gruppo"@en .
-<http://www.example.org/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "NomeGruppo"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Gruppo"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NomeGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "NomeGruppo"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Nome_Certificato
-<http://www.example.org/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Certificato> .
-<http://www.example.org/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Certificato"@en .
-<http://www.example.org/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_Certificato"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Certificato"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_Certificato"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Nome_PA
-<http://www.example.org/CertificateRequestOntology/Nome_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome PA"@en .
-<http://www.example.org/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_PA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_PA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Note
-<http://www.example.org/CertificateRequestOntology/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#label> "Note"@en .
-<http://www.example.org/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#label> "Note"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#label> "Note"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Note> <http://www.w3.org/2000/01/rdf-schema#label> "Note"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Numero
-<http://www.example.org/CertificateRequestOntology/Numero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#label> "Numero"@en .
-<http://www.example.org/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#label> "Numero"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#label> "Numero"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Numero> <http://www.w3.org/2000/01/rdf-schema#label> "Numero"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/NumeroRichiedenti
-<http://www.example.org/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> .
-<http://www.example.org/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Numero Richiedenti"@en .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NumeroRichiedenti
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/NumeroRichiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Numero Richiedenti"@en .
 # 
-# http://www.example.org/CertificateRequestOntology/Paese_di_Nascita
-<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Paese di Nascita"@en .
-<http://www.example.org/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Paese_di_Nascita"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Paese di Nascita"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Paese_di_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Paese_di_Nascita"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Plurilingua
-<http://www.example.org/CertificateRequestOntology/Plurilingua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-<http://www.example.org/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#label> "Plurilingua"@en .
-<http://www.example.org/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#label> "Plurilingua"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#label> "Plurilingua"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Plurilingua> <http://www.w3.org/2000/01/rdf-schema#label> "Plurilingua"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Provincia
-<http://www.example.org/CertificateRequestOntology/Provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@en .
-<http://www.example.org/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio
-<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia Matrimonio"@en .
-<http://www.example.org/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia_Matrimonio"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia Matrimonio"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia_Matrimonio"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Provincia_Nascita
-<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia Nascita"@en .
-<http://www.example.org/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia_Nascita"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia Nascita"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Provincia_Nascita> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia_Nascita"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Regione
-<http://www.example.org/CertificateRequestOntology/Regione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@en .
-<http://www.example.org/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Regione> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno
-<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Residenza> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza Ad Anno"@en .
-<http://www.example.org/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza_Ad_Anno"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza Ad Anno"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Ad_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza_Ad_Anno"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno
-<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Residenza> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza Da Anno"@en .
-<http://www.example.org/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza_Da_Anno"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza Da Anno"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza_Da_Anno> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza_Da_Anno"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Sesso
-<http://www.example.org/CertificateRequestOntology/Sesso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#label> "Sesso"@en .
-<http://www.example.org/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#label> "Sesso"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#label> "Sesso"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sesso> <http://www.w3.org/2000/01/rdf-schema#label> "Sesso"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Sito_PA
-<http://www.example.org/CertificateRequestOntology/Sito_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> .
-<http://www.example.org/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito PA"@en .
-<http://www.example.org/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito_PA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito_PA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Stato_Civile
-<http://www.example.org/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#label> "Stato Civile"@en .
-<http://www.example.org/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#label> "Stato_Civile"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#label> "Stato Civile"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Stato_Civile> <http://www.w3.org/2000/01/rdf-schema#label> "Stato_Civile"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Telefono
-<http://www.example.org/CertificateRequestOntology/Telefono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#label> "Telefono"@en .
-<http://www.example.org/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#label> "Telefono"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#label> "Telefono"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Telefono> <http://www.w3.org/2000/01/rdf-schema#label> "Telefono"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/TipologiaGruppo
-<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> .
-<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Tipologia Gruppo"@en .
-<http://www.example.org/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "TipologiaGruppo"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Tipologia Gruppo"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/TipologiaGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "TipologiaGruppo"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Via
-<http://www.example.org/CertificateRequestOntology/Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#label> "Via"@en .
-<http://www.example.org/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#label> "Via"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#label> "Via"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Via> <http://www.w3.org/2000/01/rdf-schema#label> "Via"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/fData_Matrimonio
-<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Data Matrimonio"@en .
-<http://www.example.org/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "fData_Matrimonio"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Data Matrimonio"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/fData_Matrimonio> <http://www.w3.org/2000/01/rdf-schema#label> "fData_Matrimonio"@iri-based .
 # 
 # 
 # 
@@ -391,82 +391,82 @@
 # #################################################################
 # 
 # 
-# http://www.example.org/CertificateRequestOntology/Certificato
-<http://www.example.org/CertificateRequestOntology/Certificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@en .
-<http://www.example.org/CertificateRequestOntology/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Domicilio
-<http://www.example.org/CertificateRequestOntology/Domicilio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Domicilio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Domicilio> <http://www.w3.org/2000/01/rdf-schema#label> "Domicilio"@en .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Domicilio
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Domicilio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Domicilio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Domicilio> <http://www.w3.org/2000/01/rdf-schema#label> "Domicilio"@en .
 # 
-# http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti
-<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
-_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/effettuaRichiestaGruppo> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/effettuaRichiestaGruppo> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
-_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/Richiedente> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/gruppoRichiedentiInclude> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/gruppoRichiedentiInclude> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo Richiedenti"@en .
-<http://www.example.org/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo_Richiedenti"@iri-based .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo Richiedenti"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo_Richiedenti"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Indirizzo
-<http://www.example.org/CertificateRequestOntology/Indirizzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Indirizzo> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo"@en .
-<http://www.example.org/CertificateRequestOntology/Indirizzo> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Indirizzo_PA
-<http://www.example.org/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
-<http://www.example.org/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo_PA"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo_PA
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo_PA"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Publica_Amministrazione
-<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/Certificato> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/PAGestisce> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PAGestisce> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
-_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/PA_Gestisce> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/PA_Gestisce> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica Amministrazione"@en .
-<http://www.example.org/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica_Amministrazione"@iri-based .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica Amministrazione"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica_Amministrazione"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Residenza
-<http://www.example.org/CertificateRequestOntology/Residenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-<http://www.example.org/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza"@en .
-<http://www.example.org/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Residenza> <http://www.w3.org/2000/01/rdf-schema#label> "Residenza"@iri-based .
 # 
-# http://www.example.org/CertificateRequestOntology/Richiedente
-<http://www.example.org/CertificateRequestOntology/Richiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
-_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/indirizzoRichiedente> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizzoRichiedente> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
-_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/RichiestaCertificato> .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/richiestaSingoloRichiedente> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/richiestaSingoloRichiedente> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#label> "Richiedente"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Richiedente> <http://www.w3.org/2000/01/rdf-schema#label> "Richiedente"@en .
 # 
-# http://www.example.org/CertificateRequestOntology/RichiestaCertificato
-<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/Indirizzo> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/indirizziRichiestaCertificato> .
+# https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Indirizzo> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/indirizziRichiestaCertificato> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
-_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.example.org/CertificateRequestOntology/Certificato> .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.example.org/CertificateRequestOntology/necessitaCertificatiMandatori> .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/Certificato> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/necessitaCertificatiMandatori> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#label> "Richiesta Certificato"@en .
-<http://www.example.org/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#label> "RichiestaCertificato"@iri-based .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#label> "Richiesta Certificato"@en .
+<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/RichiestaCertificato> <http://www.w3.org/2000/01/rdf-schema#label> "RichiestaCertificato"@iri-based .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
