@@ -19,9 +19,9 @@
 < https://gcarau.github.io/RichiestaCertificati/> rdf:type owl:Ontology ;
                                                        dc:title "CertificateRequestOntology"@en; 
                                                        dc:description "This is an ontology describing concept in the certificate request made to public administrations domain"@en; 
-                                                       owl:versionInfo "0.1"@en;
+                                                       owl:versionInfo "0.2"@en;
                                                        dc:creator "Giovanni Carau" . 
-#################################################################
+###################################GIO##############################
 
 ###  Property Definitions (Number of Property) 46 ###
 #  --------------------------- Property 0------------------------- 
