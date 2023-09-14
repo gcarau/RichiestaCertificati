@@ -12,11 +12,11 @@
 @prefix wot: 		<http://xmlns.com/wot/0.1/> .
 @prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
-@prefix cro: 		<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> .
-@prefix : 		<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> .
-@base 			<https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> .
+@prefix cro: 		<https://gcarau.github.io/RichiestaCertificati/> .
+@prefix : 		<https://gcarau.github.io/RichiestaCertificati/> .
+@base 			<https://gcarau.github.io/RichiestaCertificati/> .
 
-< https://gcarau.github.io/RichiestaCertificati/CertificateRequestOntology/> rdf:type owl:Ontology ;
+< https://gcarau.github.io/RichiestaCertificati/> rdf:type owl:Ontology ;
                                                        dc:title "CertificateRequestOntology"@en; 
                                                        dc:description "This is an ontology describing concept in the certificate request made to public administrations domain"@en; 
                                                        owl:versionInfo "0.1"@en;
