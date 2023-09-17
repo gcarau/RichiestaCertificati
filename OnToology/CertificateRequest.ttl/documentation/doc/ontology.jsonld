@@ -95,7 +95,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.1"
+    "@value" : "0.2"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Cap",
