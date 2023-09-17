@@ -104,7 +104,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.3"
+    "@value" : "0.4"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Azienda",
