@@ -10,7 +10,7 @@
                                                   <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" ;
                                                   <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en ;
-                                                  owl:versionInfo "0.2"@en .
+                                                  owl:versionInfo "0.3"@en .
 
 #################################################################
 #    Annotation properties
@@ -88,14 +88,16 @@
 :relativaAGruppo rdf:type owl:ObjectProperty ;
                  rdfs:domain :RichiestaCertificato ;
                  rdfs:range :Gruppo_Richiedenti ;
-                 rdfs:label "relativaAGruppo"@en .
+                 rdfs:label "relativaAGruppo"@en ,
+                            "relativaAGruppo"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/relativa_A
 :relativa_A rdf:type owl:ObjectProperty ;
             rdfs:domain :RichiestaCertificato ;
             rdfs:range :Richiedente ;
-            rdfs:label "relativa A"@en .
+            rdfs:label "relativa A"@en ,
+                       "relativa_A"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene
@@ -108,6 +110,10 @@
 
 ###  https://gcarau.github.io/RichiestaCertificati/richiestaSingoloRichiedente
 :richiestaSingoloRichiedente rdf:type owl:ObjectProperty .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/titolare_Di
+:titolare_Di rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -128,6 +134,13 @@
            rdfs:range rdfs:Literal ;
            rdfs:label "Cellulare"@en ,
                       "Cellulare"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Chiesa_Battesimo
+:Chiesa_Battesimo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Richiedente ;
+                  rdfs:range rdfs:Literal ;
+                  rdfs:label "Chiesa Battesimo"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale
@@ -154,6 +167,13 @@
                    "Comune"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/Comune_Battesimo
+:Comune_Battesimo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Richiedente ;
+                  rdfs:range rdfs:Literal ;
+                  rdfs:label "Comune Battesimo"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Comune_Matrimonio
 :Comune_Matrimonio rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Richiedente ;
@@ -168,6 +188,20 @@
                         rdfs:range rdfs:Literal ;
                         rdfs:label "Comune Residenza Madre"@en ,
                                    "Comune_Residenza_Madre"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Comune_di_Adozione
+:Comune_di_Adozione rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :RichiestaCertificato ;
+                    rdfs:range rdfs:Literal ;
+                    rdfs:label "Comune di Adozione"@en .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Comune_di_Celebrazione_Matrimonio
+:Comune_di_Celebrazione_Matrimonio rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain :RichiestaCertificato ;
+                                   rdfs:range rdfs:Literal ;
+                                   rdfs:label "Comune di Celebrazione Matrimonio"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Data_Richiesta
@@ -205,7 +239,7 @@
 ###  https://gcarau.github.io/RichiestaCertificati/Eta
 :Eta rdf:type owl:DatatypeProperty ;
      rdfs:domain :Richiedente ;
-     rdfs:range xsd:integer ;
+     rdfs:range rdfs:Literal ;
      rdfs:label "Eta"@en ,
                 "Eta"@iri-based .
 
@@ -234,6 +268,13 @@
                             "Luogo_Richiesta"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/MInorenne
+:MInorenne rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Certificato ;
+           rdfs:range rdfs:Literal ;
+           rdfs:label "MInorenne"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Motivo_Richiesta
 :Motivo_Richiesta rdf:type owl:DatatypeProperty ;
                   rdfs:domain :RichiestaCertificato ;
@@ -258,28 +299,28 @@
                  "Nome"@iri-based .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/NomeCertificatoRichiesto
-:NomeCertificatoRichiesto rdf:type owl:DatatypeProperty ;
-                          rdfs:domain :RichiestaCertificato ;
-                          rdfs:range xsd:string ;
-                          rdfs:label "Nome Certificato Richiesto"@en ,
-                                     "NomeCertificatoRichiesto"@iri-based .
-
-
-###  https://gcarau.github.io/RichiestaCertificati/NomeGruppo
-:NomeGruppo rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Gruppo_Richiedenti ;
-            rdfs:range xsd:string ;
-            rdfs:label "Nome Gruppo"@en ,
-                       "NomeGruppo"@iri-based .
-
-
 ###  https://gcarau.github.io/RichiestaCertificati/Nome_Certificato
 :Nome_Certificato rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Certificato ;
-                  rdfs:range xsd:string ;
+                  rdfs:range rdfs:Literal ;
                   rdfs:label "Nome Certificato"@en ,
                              "Nome_Certificato"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto
+:Nome_Certificato_Richiesto rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :RichiestaCertificato ;
+                            rdfs:range rdfs:Literal ;
+                            rdfs:label "Nome Certificato Richiesto"@en ,
+                                       "NomeCertificatoRichiesto"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Nome_Gruppo
+:Nome_Gruppo rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Gruppo_Richiedenti ;
+             rdfs:range rdfs:Literal ;
+             rdfs:label "Nome Gruppo"@en ,
+                        "NomeGruppo"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Nome_PA
@@ -306,11 +347,19 @@
                    "Numero"@iri-based .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/NumeroRichiedenti
-:NumeroRichiedenti rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Gruppo_Richiedenti ;
-                   rdfs:range rdfs:Literal ;
-                   rdfs:label "Numero Richiedenti"@en .
+###  https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti
+:Numero_Richiedenti rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Gruppo_Richiedenti ;
+                    rdfs:range rdfs:Literal ;
+                    rdfs:label "Numero Richiedenti"@en ,
+                               "NumeroRichiedenti"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Ordine_Collegio_di_Appartenenza
+:Ordine_Collegio_di_Appartenenza rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain :Richiedente ;
+                                 rdfs:range rdfs:Literal ;
+                                 rdfs:label "Ordine Collegio di Appartenenza"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Paese_di_Nascita
@@ -319,6 +368,13 @@
                   rdfs:range rdfs:Literal ;
                   rdfs:label "Paese di Nascita"@en ,
                              "Paese_di_Nascita"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/PeriodoStorico
+:PeriodoStorico rdf:type owl:DatatypeProperty ;
+                rdfs:domain :RichiestaCertificato ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "Periodo Storico"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Plurilingua
@@ -337,6 +393,13 @@
                       "Provincia"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/Provincia_Battesimo
+:Provincia_Battesimo rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Richiedente ;
+                     rdfs:range rdfs:Literal ;
+                     rdfs:label "Provincia Battesimo"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Provincia_Matrimonio
 :Provincia_Matrimonio rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Richiedente ;
@@ -351,6 +414,13 @@
                    rdfs:range rdfs:Literal ;
                    rdfs:label "Provincia Nascita"@en ,
                               "Provincia_Nascita"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Qualifica_Professionale
+:Qualifica_Professionale rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Richiedente ;
+                         rdfs:range rdfs:Literal ;
+                         rdfs:label "Qualifica Professionale"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Regione
@@ -380,7 +450,7 @@
 ###  https://gcarau.github.io/RichiestaCertificati/Sesso
 :Sesso rdf:type owl:DatatypeProperty ;
        rdfs:domain :Richiedente ;
-       rdfs:range xsd:string ;
+       rdfs:range rdfs:Literal ;
        rdfs:label "Sesso"@en ,
                   "Sesso"@iri-based .
 
@@ -393,12 +463,33 @@
                     "Sito_PA"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/Situazione_Occupazionale
+:Situazione_Occupazionale rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Richiedente ;
+                          rdfs:range rdfs:Literal ;
+                          rdfs:label "Situazione Occupazionale"@en .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Società_Rappresentata
+:Società_Rappresentata rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Azienda ;
+                       rdfs:range rdfs:Literal ;
+                       rdfs:label "Società Rappresentata"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Stato_Civile
 :Stato_Civile rdf:type owl:DatatypeProperty ;
               rdfs:domain :Richiedente ;
-              rdfs:range xsd:string ;
+              rdfs:range rdfs:Literal ;
               rdfs:label "Stato Civile"@en ,
                          "Stato_Civile"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Stato_di_Celebrazione_Matrimonio
+:Stato_di_Celebrazione_Matrimonio rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain :RichiestaCertificato ;
+                                  rdfs:range rdfs:Literal ;
+                                  rdfs:label "Stato di Celebrazione Matrimonio"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Telefono
@@ -409,12 +500,33 @@
                      "Telefono"@iri-based .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/TipologiaGruppo
-:TipologiaGruppo rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Gruppo_Richiedenti ;
-                 rdfs:range xsd:string ;
-                 rdfs:label "Tipologia Gruppo"@en ,
-                            "TipologiaGruppo"@iri-based .
+###  https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione
+:Tempi_di_Evasione rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Richiedente ;
+                   rdfs:range rdfs:Literal ;
+                   rdfs:label "Tempi di Evasione"@en .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo
+:Tipologia_Gruppo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Gruppo_Richiedenti ;
+                  rdfs:range rdfs:Literal ;
+                  rdfs:label "Tipologia Gruppo"@en ,
+                             "TipologiaGruppo"@iri-based .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Titolare_Ditta_individuale
+:Titolare_Ditta_individuale rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :Azienda ;
+                            rdfs:range rdfs:Literal ;
+                            rdfs:label "Titolare Ditta individuale"@en .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Titolo_di_Studio
+:Titolo_di_Studio rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Richiedente ;
+                  rdfs:range rdfs:Literal ;
+                  rdfs:label "Titolo di Studio"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Via
@@ -437,6 +549,11 @@
 #    Classes
 #################################################################
 
+###  https://gcarau.github.io/RichiestaCertificati/Azienda
+:Azienda rdf:type owl:Class ;
+         rdfs:label "Azienda"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Certificato
 :Certificato rdf:type owl:Class ;
              rdfs:label "Certificato"@en ,
@@ -446,7 +563,8 @@
 ###  https://gcarau.github.io/RichiestaCertificati/Domicilio
 :Domicilio rdf:type owl:Class ;
            rdfs:subClassOf :Indirizzo ;
-           rdfs:label "Domicilio"@en .
+           rdfs:label "Domicilio"@en ,
+                      "Domicilio"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti
@@ -506,8 +624,13 @@
                              [ rdf:type owl:Restriction ;
                                owl:onProperty :richiestaSingoloRichiedente ;
                                owl:someValuesFrom :RichiestaCertificato
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :titolare_Di ;
+                               owl:someValuesFrom :Azienda
                              ] ;
-             rdfs:label "Richiedente"@en .
+             rdfs:label "Richiedente"@en ,
+                        "Richiedente"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato
