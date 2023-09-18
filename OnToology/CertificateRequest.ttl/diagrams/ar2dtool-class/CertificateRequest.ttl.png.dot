@@ -20,6 +20,7 @@ node [shape = rectangle, color="orange"]; "cro:Publica_Amministrazione" "cro:Res
 	"cro:Residenza" -> "rdfs:Literal" [ label = "cro:Residenza_Ad_Anno" ];
 	"cro:RichiestaCertificato" -> "cro:Richiedente" [ label = "cro:relativa_A" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Titolo_di_Studio" ];
+	"cro:Azienda" -> "cro:Indirizzo" [ label = "cro:indirizzo_Azienda" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Comune_di_Celebrazione_Matrimonio" ];
 	"cro:Publica_Amministrazione" -> "rdfs:Literal" [ label = "cro:Nome_PA" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Tempi_di_Evasione" ];

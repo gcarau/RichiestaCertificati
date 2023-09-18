@@ -112,6 +112,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Azienda"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Azienda"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Cap",
@@ -156,6 +159,29 @@
     "@value" : "Certificato"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CertificatiPerExtraCommunitario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CertificatoPerMinorenne"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "CertificatoPerMinorenne"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Chiesa_Battesimo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -164,6 +190,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Chiesa Battesimo"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Chiesa_Battesimo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -225,6 +254,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Comune Battesimo"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Comune_Battesimo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -270,6 +302,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Comune di Adozione"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Comune_di_Adozione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -283,6 +318,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Comune di Celebrazione Matrimonio"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Comune_di_Celebrazione_Matrimonio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -422,6 +460,19 @@
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indirizzo Azienda"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Indirizzo_Azienda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -507,6 +558,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "MInorenne"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "MInorenne"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -587,6 +641,9 @@
   }, {
     "@language" : "iri-based",
     "@value" : "NomeCertificatoRichiesto"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Nome_Certificato_Richiesto"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -602,7 +659,7 @@
     "@value" : "Nome Gruppo"
   }, {
     "@language" : "iri-based",
-    "@value" : "NomeGruppo"
+    "@value" : "Nome_Gruppo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -666,7 +723,7 @@
     "@value" : "Numero Richiedenti"
   }, {
     "@language" : "iri-based",
-    "@value" : "NumeroRichiedenti"
+    "@value" : "Numero_Richiedenti"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -680,6 +737,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Ordine Collegio di Appartenenza"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Ordine_Collegio_di_Appartenenza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -715,6 +775,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Periodo Storico"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "PeriodoStorico"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -760,6 +823,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Provincia Battesimo"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Provincia_Battesimo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -820,6 +886,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Qualifica Professionale"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Qualifica_Professionale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -958,6 +1027,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Situazione Occupazionale"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Situazione_Occupazionale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -971,6 +1043,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Società Rappresentata"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Società_Rappresentata"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1000,6 +1075,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Stato di Celebrazione Matrimonio"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Stato_di_Celebrazione_Matrimonio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1029,6 +1107,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tempi di Evasione"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Tempi_di_Evasione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1045,6 +1126,9 @@
   }, {
     "@language" : "iri-based",
     "@value" : "TipologiaGruppo"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Tipologia_Gruppo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1058,6 +1142,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Titolare Ditta individuale"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Titolare_Ditta_individuale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1071,6 +1158,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Titolo di Studio"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Titolo_di_Studio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1135,6 +1225,22 @@
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzoRichiedente",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Azienda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "indirizzo Azienda"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "indirizzo_Azienda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+  } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
