@@ -42,6 +42,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene",
       "@type" : "@id"
     },
+    "indirizzo_Azienda" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda",
+      "@type" : "@id"
+    },
     "IndirizzoPA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/IndirizzoPA",
       "@type" : "@id"
@@ -165,6 +169,9 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Indirizzo_Azienda" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda"
+    },
     "Domicilio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Domicilio"
     },
@@ -183,6 +190,9 @@
     "PA_Gestisce" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/PA_Gestisce",
       "@type" : "@id"
+    },
+    "CertificatoPerMinorenne" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne"
     },
     "Qualifica_Professionale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Qualifica_Professionale",
@@ -313,6 +323,9 @@
     "Nome_PA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_PA",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "CertificatoPerExtraCommunitario" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
