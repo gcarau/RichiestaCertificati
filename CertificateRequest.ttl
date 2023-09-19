@@ -19,7 +19,7 @@
 <https://gcarau.github.io/RichiestaCertificati/> rdf:type owl:Ontology ;
                                                  dc:title "CertificateRequestOntology"@en; 
                                                  dc:description "This is an ontology describing concept in the certificate request made to public administrations domain"@en; 
-                                                 owl:versionInfo "0.4"@en;
+                                                 owl:versionInfo "0.6"@en;
                                                  dc:creator "Giovanni Carau" . 
 #################################################################
 
@@ -55,6 +55,7 @@
 #  --------------------------- Property 4------------------------- 
 :indirizzo_Azienda rdf:type owl:ObjectProperty ;
                    rdfs:label "indirizzo_Azienda"@IRI-based; 
+                   rdfs:label "indirizzo_Azienda"@iri-based; 
                    rdfs:label "indirizzo Azienda"@en; 
                    rdfs:domain :Azienda;
                    rdfs:range :Indirizzo . 
@@ -187,7 +188,7 @@
 #  --------------------------- Property 23------------------------- 
 :Tipologia_Gruppo rdf:type owl:DatatypeProperty ;
                   rdfs:label "Tipologia_Gruppo"@IRI-based; 
-                  rdfs:label "TipologiaGruppo"@iri-based; 
+                  rdfs:label "Tipologia_Gruppo"@iri-based; 
                   rdfs:label "Tipologia Gruppo"@en; 
                   rdfs:domain :Gruppo_Richiedenti;
                   rdfs:range rdfs:Literal . 
@@ -390,7 +391,7 @@
 #  --------------------------- Property 52------------------------- 
 :Nome_Certificato_Richiesto rdf:type owl:DatatypeProperty ;
                             rdfs:label "Nome_Certificato_Richiesto"@IRI-based; 
-                            rdfs:label "NomeCertificatoRichiesto"@iri-based; 
+                            rdfs:label "Nome_Certificato_Richiesto"@iri-based; 
                             rdfs:label "Nome Certificato Richiesto"@en; 
                             rdfs:domain :RichiestaCertificato;
                             rdfs:range rdfs:Literal . 
@@ -479,6 +480,7 @@
 :Indirizzo_Azienda rdf:type owl:Class; 
                    rdfs:subClassOf :Indirizzo ;
                    rdfs:label "Indirizzo_Azienda"@IRI-based; 
+                   rdfs:label "Indirizzo_Azienda"@iri-based; 
                    rdfs:label "Indirizzo Azienda"@en . 
 #  --------------------------- Class  2------------------------- 
 :Gruppo_Richiedenti rdf:type owl:Class; 
@@ -499,10 +501,9 @@
          rdfs:label "Azienda"@iri-based; 
          rdfs:label "Azienda"@en . 
 #  --------------------------- Class  4------------------------- 
-:CertificatoPerMinorenne rdf:type owl:Class; 
-                         rdfs:subClassOf :Certificato ;
-                         rdfs:label "CertificatoPerMinorenne"@IRI-based; 
-                         rdfs:label "CertificatoPerMinorenne"@en . 
+:Certificato_Per_Minorenne rdf:type owl:Class; 
+                           rdfs:subClassOf :Certificato ;
+                           rdfs:label "Certificato Per Minorenne"@en . 
 #  --------------------------- Class  5------------------------- 
 :Residenza rdf:type owl:Class; 
            rdfs:subClassOf :Indirizzo ;
@@ -547,9 +548,9 @@
            rdfs:label "Domicilio"@iri-based; 
            rdfs:label "Domicilio"@en . 
 #  --------------------------- Class  10------------------------- 
-:CertificatoPerExtraCommunitario rdf:type owl:Class; 
-                                 rdfs:subClassOf :Certificato ;
-                                 rdfs:label "CertificatiPerExtraCommunitario"@en . 
+:Certificato_Per_ExtraCommunitario rdf:type owl:Class; 
+                                   rdfs:subClassOf :Certificato ;
+                                   rdfs:label "Certificato Per ExtraCommunitario"@en . 
 #  --------------------------- Class  11------------------------- 
 :Indirizzo_PA rdf:type owl:Class; 
               rdfs:subClassOf :Indirizzo ;
