@@ -104,7 +104,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.4"
+    "@value" : "0.6"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Azienda",
@@ -159,24 +159,21 @@
     "@value" : "Certificato"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CertificatiPerExtraCommunitario"
+    "@value" : "Certificato Per ExtraCommunitario"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "CertificatoPerMinorenne"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "CertificatoPerMinorenne"
+    "@value" : "Certificato Per Minorenne"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
@@ -638,9 +635,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Nome Certificato Richiesto"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "NomeCertificatoRichiesto"
   }, {
     "@language" : "iri-based",
     "@value" : "Nome_Certificato_Richiesto"
@@ -1123,9 +1117,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Tipologia Gruppo"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "TipologiaGruppo"
   }, {
     "@language" : "iri-based",
     "@value" : "Tipologia_Gruppo"
