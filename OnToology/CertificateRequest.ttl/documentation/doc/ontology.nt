@@ -2,7 +2,7 @@
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en .
-<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.4"@en .
+<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.6"@en .
 # 
 # 
 # #################################################################
@@ -288,7 +288,6 @@
 <https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
 <https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto> <http://www.w3.org/2000/01/rdf-schema#label> "Nome Certificato Richiesto"@en .
-<https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto> <http://www.w3.org/2000/01/rdf-schema#label> "NomeCertificatoRichiesto"@iri-based .
 <https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_Certificato_Richiesto"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/Nome_Gruppo
@@ -471,7 +470,6 @@
 <https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> .
 <https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Tipologia Gruppo"@en .
-<https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo> <http://www.w3.org/2000/01/rdf-schema#label> "TipologiaGruppo"@iri-based .
 <https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo> <http://www.w3.org/2000/01/rdf-schema#label> "Tipologia_Gruppo"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/Titolare_Ditta_individuale
@@ -521,16 +519,15 @@
 <https://gcarau.github.io/RichiestaCertificati/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@en .
 <https://gcarau.github.io/RichiestaCertificati/Certificato> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@iri-based .
 # 
-# https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario> <http://www.w3.org/2000/01/rdf-schema#label> "CertificatiPerExtraCommunitario"@en .
+# https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato Per ExtraCommunitario"@en .
 # 
-# https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne> <http://www.w3.org/2000/01/rdf-schema#label> "CertificatoPerMinorenne"@en .
-<https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne> <http://www.w3.org/2000/01/rdf-schema#label> "CertificatoPerMinorenne"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
+<https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato Per Minorenne"@en .
 # 
 # https://gcarau.github.io/RichiestaCertificati/Domicilio
 <https://gcarau.github.io/RichiestaCertificati/Domicilio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

@@ -10,7 +10,7 @@
                                                   <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" ;
                                                   <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en ;
-                                                  owl:versionInfo "0.4"@en .
+                                                  owl:versionInfo "0.6"@en .
 
 #################################################################
 #    Annotation properties
@@ -325,7 +325,6 @@
                             rdfs:domain :RichiestaCertificato ;
                             rdfs:range rdfs:Literal ;
                             rdfs:label "Nome Certificato Richiesto"@en ,
-                                       "NomeCertificatoRichiesto"@iri-based ,
                                        "Nome_Certificato_Richiesto"@iri-based .
 
 
@@ -534,7 +533,6 @@
                   rdfs:domain :Gruppo_Richiedenti ;
                   rdfs:range rdfs:Literal ;
                   rdfs:label "Tipologia Gruppo"@en ,
-                             "TipologiaGruppo"@iri-based ,
                              "Tipologia_Gruppo"@iri-based .
 
 
@@ -586,17 +584,16 @@
                         "Certificato"@iri-based .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/CertificatoPerExtraCommunitario
-:CertificatoPerExtraCommunitario rdf:type owl:Class ;
-                                 rdfs:subClassOf :Certificato ;
-                                 rdfs:label "CertificatiPerExtraCommunitario"@en .
+###  https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario
+:Certificato_Per_ExtraCommunitario rdf:type owl:Class ;
+                                   rdfs:subClassOf :Certificato ;
+                                   rdfs:label "Certificato Per ExtraCommunitario"@en .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/CertificatoPerMinorenne
-:CertificatoPerMinorenne rdf:type owl:Class ;
-                         rdfs:subClassOf :Certificato ;
-                         rdfs:label "CertificatoPerMinorenne"@en ,
-                                    "CertificatoPerMinorenne"@iri-based .
+###  https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne
+:Certificato_Per_Minorenne rdf:type owl:Class ;
+                           rdfs:subClassOf :Certificato ;
+                           rdfs:label "Certificato Per Minorenne"@en .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Domicilio
