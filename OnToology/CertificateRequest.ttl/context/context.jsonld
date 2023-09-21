@@ -1,5 +1,9 @@
 {
   "@context" : {
+    "Anno_di_Imposta" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_di_Imposta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Publica_Amministrazione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
     },
@@ -11,11 +15,23 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Gruppo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Denominazione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Denominazione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
+    "Codice_Fiscale_Azienda" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale_Azienda",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Luogo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Uso_Personale" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Personale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Certificato_Per_ExtraCommunitario" : {
@@ -32,6 +48,14 @@
     "richiestaSingoloRichiedente" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/richiestaSingoloRichiedente",
       "@type" : "@id"
+    },
+    "Assicurazione_Sanitaria" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Assicurazione_Sanitaria",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Multilingue" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Multilingue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Stato_Civile" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Civile",
@@ -53,12 +77,24 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/IndirizzoPA",
       "@type" : "@id"
     },
+    "Data_del_matrimonio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_del_matrimonio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Data_Richiesta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Richiesta",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Durata_del_Soggiorno" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Durata_del_Soggiorno",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Gruppo_Richiedenti" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
+    },
+    "Annualita" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Annualita",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Comune_di_Adozione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_di_Adozione",
@@ -72,12 +108,28 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza_Da_Anno",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Numero_di_Sentenza_di_Adozione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_di_Sentenza_di_Adozione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Modalità_Consegna" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Modalità_Consegna",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Provincia_Battesimo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Battesimo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Tipologia_di_familiare" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_di_familiare",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Eta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Eta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Sede_Legale" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Sede_Legale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "PAGestisce" : {
@@ -86,6 +138,10 @@
     },
     "Situazione_Occupazionale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Situazione_Occupazionale",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Numero_Copie" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Copie",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "label" : {
@@ -97,6 +153,10 @@
     },
     "Provincia_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Matrimonio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Annualità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Annualità",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Numero" : {
@@ -126,8 +186,20 @@
     "Certificato_Per_Minorenne" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne"
     },
+    "Altri_Dati_rappresentativi" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Luogo_Richiesta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Richiesta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Data_di_Deposito_Sentenza_di_Adozione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_Deposito_Sentenza_di_Adozione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Uso_Gara_Applato" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Gara_Applato",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Via" : {
@@ -141,12 +213,24 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_Nascita",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Uso_Cessione_Azienda" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Cessione_Azienda",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Telefono" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Telefono",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Luogo_di_Destinazione_in_Itallia" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_di_Destinazione_in_Itallia",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Numero_Richiedenti" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Luogo_di_Celebrazione_Matrimonio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_di_Celebrazione_Matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Motivo_Richiesta" : {
@@ -155,6 +239,10 @@
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Tipo_Documento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Documento",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Paese_di_Nascita" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Paese_di_Nascita",
@@ -178,6 +266,10 @@
     "Indirizzo_Azienda" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda"
     },
+    "Forma_Giuridica" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Forma_Giuridica",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Domicilio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Domicilio"
     },
@@ -191,6 +283,14 @@
     },
     "Regione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Regione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Stato_Nascita_Figlio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Nascita_Figlio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Motivo_del_Viaggio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_del_Viaggio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "PA_Gestisce" : {
@@ -209,6 +309,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Chiesa_Battesimo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Uso_Estero" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Estero",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Società_Rappresentata" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Società_Rappresentata",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -217,11 +321,23 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/MInorenne",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Autorità_che_ha_celebrato_il_matrimonio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Autorità_che_ha_celebrato_il_matrimonio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Certificato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
     },
     "Indirizzo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+    },
+    "Motivo_del_ricongiungimento_familiare" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_del_ricongiungimento_familiare",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "In_Bollo" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/In_Bollo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Nome_Certificato_Richiesto" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Certificato_Richiesto",
@@ -229,6 +345,10 @@
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Data_rilascio_Documento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_rilascio_Documento",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Sito_PA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Sito_PA",
@@ -285,6 +405,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cap",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Comune_di_Nascita" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_di_Nascita",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Comune_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -297,8 +421,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Nazionalità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Nazionalità",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Stato_di_Celebrazione_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_di_Celebrazione_Matrimonio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tipo_Reddito" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Reddito",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Numero_Documento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Documento",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Sesso" : {
@@ -307,6 +443,14 @@
     },
     "Comune_Residenza_Madre" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Residenza_Madre",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Documento_Rilasciato_da" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Documento_Rilasciato_da",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tempi_di_Evasione_Certificato" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione_Certificato",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Email_PA" : {
@@ -319,6 +463,10 @@
     },
     "RichiestaCertificato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+    },
+    "Disponibilità_di_Mezzi_Economici" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Indirizzo_PA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA"
@@ -334,8 +482,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Apostilla" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Apostilla",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Cognome" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Reddito_Complessivo" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Reddito_Complessivo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "datatypeProperty107" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/datatypeProperty107",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     }
   }

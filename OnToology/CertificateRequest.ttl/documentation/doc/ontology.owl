@@ -220,6 +220,86 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Altri Dati rappresentativi</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Altri_Dati_rappresentativi</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Anno_di_Imposta -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Anno_di_Imposta">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Anno di Imposta</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Annualita -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Annualita">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Annualita</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Annualità -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Annualità">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Annualità</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Annualità</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Apostilla -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Apostilla">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Apostilla</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Apostilla</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Assicurazione_Sanitaria -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Assicurazione_Sanitaria">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Assicurazione Sanitaria</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Autorità_che_ha_celebrato_il_matrimonio -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Autorità_che_ha_celebrato_il_matrimonio">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Autorità che ha celebrato il matrimonio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Cap -->
 
 
@@ -264,6 +344,18 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Codice Fiscale</rdfs:label>
         <rdfs:label xml:lang="iri-based">Codice_Fiscale</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale_Azienda -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale_Azienda">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Codice Fiscale Azienda</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Codice_Fiscale_Azienda</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -352,6 +444,17 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Comune_di_Nascita -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Comune_di_Nascita">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Richiedente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Comune di Nascita</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Data_Richiesta -->
 
 
@@ -364,6 +467,28 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Data_del_matrimonio -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Data_del_matrimonio">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Data del matrimonio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Data_di_Deposito_Sentenza_di_Adozione -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Data_di_Deposito_Sentenza_di_Adozione">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Data di Deposito Sentenza di Adozione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Data_di_Nascita -->
 
 
@@ -372,6 +497,64 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Data di Nascita</rdfs:label>
         <rdfs:label xml:lang="iri-based">Data_di_Nascita</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Data_rilascio_Documento -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Data_rilascio_Documento">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Data rilascio Documento</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Data_rilascio_Documento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Denominazione -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Denominazione">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Denominazione</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Denominazione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Disponibilità di Mezzi Economici</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Documento_Rilasciato_da -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Documento_Rilasciato_da">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Documento Rilasciato da</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Documento_Rilasciato_da</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Durata_del_Soggiorno -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Durata_del_Soggiorno">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Durata del Soggiorno</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -412,6 +595,29 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Forma_Giuridica -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Forma_Giuridica">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Forma Giuridica</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Forma_Giuridica</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/In_Bollo -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/In_Bollo">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Richiedente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">In Bollo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Luogo -->
 
 
@@ -448,6 +654,28 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Luogo_di_Celebrazione_Matrimonio -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Luogo_di_Celebrazione_Matrimonio">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Luogo di Celebrazione Matrimonio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Luogo_di_Destinazione_in_Itallia -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Luogo_di_Destinazione_in_Itallia">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Luogo di Destinazione in Itallia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/MInorenne -->
 
 
@@ -460,6 +688,18 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Modalità_Consegna -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Modalità_Consegna">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Modalità Consegna</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Modalità_Consegna</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Motivo_Richiesta -->
 
 
@@ -468,6 +708,51 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Motivo Richiesta</rdfs:label>
         <rdfs:label xml:lang="iri-based">Motivo_Richiesta</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Motivo_del_Viaggio -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Motivo_del_Viaggio">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Motivo del Viaggio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Motivo_del_ricongiungimento_familiare -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Motivo_del_ricongiungimento_familiare">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Motivo del ricongiungimento familiare</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Multilingue -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Multilingue">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Multilingue</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Multilingue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Nazionalità -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Nazionalità">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Richiedente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Nazionalità</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -568,6 +853,30 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Numero_Copie -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Numero_Copie">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Numero Copie</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Numero_Copie</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Numero_Documento -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Numero_Documento">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Numero Documento</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Numero_Documento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti -->
 
 
@@ -576,6 +885,17 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Numero Richiedenti</rdfs:label>
         <rdfs:label xml:lang="iri-based">Numero_Richiedenti</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Numero_di_Sentenza_di_Adozione -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Numero_di_Sentenza_di_Adozione">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Numero di Sentenza di Adozione</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -688,6 +1008,17 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Reddito_Complessivo -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Reddito_Complessivo">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Reddito Complessivo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Regione -->
 
 
@@ -720,6 +1051,18 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Residenza Da Anno</rdfs:label>
         <rdfs:label xml:lang="iri-based">Residenza_Da_Anno</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Sede_Legale -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Sede_Legale">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Sede Legale</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Sede_Legale</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -784,6 +1127,17 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Stato_Nascita_Figlio -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Stato_Nascita_Figlio">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Stato Nascita Figlio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Stato_di_Celebrazione_Matrimonio -->
 
 
@@ -820,6 +1174,42 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione_Certificato -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione_Certificato">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Tempi di Evasione Certificato</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Tempi_di_Evasione_Certificato</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Tipo_Documento -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Tipo_Documento">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Tipo Documento</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Tipo_Documento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Tipo_Reddito -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Tipo_Reddito">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Tipo Reddito</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Tipo_Reddito</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo -->
 
 
@@ -828,6 +1218,17 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Tipologia Gruppo</rdfs:label>
         <rdfs:label xml:lang="iri-based">Tipologia_Gruppo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Tipologia_di_familiare -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Tipologia_di_familiare">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Tipologia di familiare</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -856,6 +1257,51 @@
     
 
 
+    <!-- https://gcarau.github.io/RichiestaCertificati/Uso_Cessione_Azienda -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Uso_Cessione_Azienda">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Uso Cessione Azienda</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Uso_Estero -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Uso_Estero">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Uso Estero</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Uso_Estero</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Uso_Gara_Applato -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Uso_Gara_Applato">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Uso Gara Applato</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/Uso_Personale -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/Uso_Personale">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/Azienda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Uso Personale</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://gcarau.github.io/RichiestaCertificati/Via -->
 
 
@@ -864,6 +1310,17 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">Via</rdfs:label>
         <rdfs:label xml:lang="iri-based">Via</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://gcarau.github.io/RichiestaCertificati/datatypeProperty107 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://gcarau.github.io/RichiestaCertificati/datatypeProperty107">
+        <rdfs:domain rdf:resource="https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">newDatatypeProperty</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -918,6 +1375,7 @@
     <owl:Class rdf:about="https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario">
         <rdfs:subClassOf rdf:resource="https://gcarau.github.io/RichiestaCertificati/Certificato"/>
         <rdfs:label xml:lang="en">Certificato Per ExtraCommunitario</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Certificato_Per_ExtraCommunitario</rdfs:label>
     </owl:Class>
     
 
@@ -928,6 +1386,7 @@
     <owl:Class rdf:about="https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne">
         <rdfs:subClassOf rdf:resource="https://gcarau.github.io/RichiestaCertificati/Certificato"/>
         <rdfs:label xml:lang="en">Certificato Per Minorenne</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Certificato_Per_Minorenne</rdfs:label>
     </owl:Class>
     
 
