@@ -2,7 +2,7 @@
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en .
-<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.6"@en .
+<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.8"@en .
 # 
 # 
 # #################################################################
