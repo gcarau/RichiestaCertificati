@@ -7,6 +7,14 @@
     "Publica_Amministrazione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
     },
+    "Data_riconoscimento_Invalidità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_riconoscimento_Invalidità",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Numero_Telaio_Veicolo" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Telaio_Veicolo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Nome" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -17,6 +25,14 @@
     },
     "Denominazione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Denominazione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Frazione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Frazione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tipologia_Invalidità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Invalidità",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "versionInfo" : {
@@ -34,8 +50,23 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Personale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Numero_registro_generale_della_sentenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_registro_generale_della_sentenza",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Certificato_Per_ExtraCommunitario" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato_Per_ExtraCommunitario"
+    },
+    "Indirizzo_Immobile" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile"
+    },
+    "Tipo_Agevolazione_Richiesta" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Agevolazione_Richiesta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Grado_Invalidità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Grado_Invalidità",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Email" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Email",
@@ -43,6 +74,10 @@
     },
     "Comune_Battesimo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Battesimo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Comune_Immobile" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Immobile",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "richiestaSingoloRichiedente" : {
@@ -85,6 +120,14 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Richiesta",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Codice_Fiscale_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Numero_di_ruolo_della_sentenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_di_ruolo_della_sentenza",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Durata_del_Soggiorno" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Durata_del_Soggiorno",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -94,6 +137,10 @@
     },
     "Annualita" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Annualita",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Destinazione_di_Uso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Destinazione_di_Uso",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Comune_di_Adozione" : {
@@ -151,6 +198,9 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Nascita",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Immobile" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Immobile"
+    },
     "Provincia_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia_Matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -183,6 +233,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Certificato",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Destinazione_Espatrio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Destinazione_Espatrio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Certificato_Per_Minorenne" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato_Per_Minorenne"
     },
@@ -198,12 +252,28 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_Deposito_Sentenza_di_Adozione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Cittadinanza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Cittadinanza",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Uso_Gara_Applato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Gara_Applato",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Via" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Via",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Luogo_Nascita_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Nascita_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Targa_Veicolo" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Targa_Veicolo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Cognome_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Richiedente" : {
@@ -225,6 +295,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_di_Destinazione_in_Itallia",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Foglio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Foglio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Numero_Richiedenti" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -235,6 +309,18 @@
     },
     "Motivo_Richiesta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_Richiesta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Luogo_Decesso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Decesso",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Motivo_Espatrio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_Espatrio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Intestazione_dei_Beni_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Intestazione_dei_Beni_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "creator" : {
@@ -252,11 +338,27 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA",
       "@type" : "@id"
     },
+    "indirizzoImmobile" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzoImmobile",
+      "@type" : "@id"
+    },
+    "Sezione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Sezione",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Azienda" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Azienda"
     },
+    "Cittadinanza_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Cittadinanza_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Cellulare" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cellulare",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Subalterno" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Subalterno",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Comune" : {
@@ -265,6 +367,14 @@
     },
     "Indirizzo_Azienda" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda"
+    },
+    "Stato_Civile_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Civile_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tribunale_che_ha_emesso_la_sentenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tribunale_che_ha_emesso_la_sentenza",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Forma_Giuridica" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Forma_Giuridica",
@@ -285,12 +395,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Regione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Nome_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Stato_Nascita_Figlio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Nascita_Figlio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Motivo_del_Viaggio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_del_Viaggio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Data_Decesso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Decesso",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "PA_Gestisce" : {
@@ -321,6 +439,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/MInorenne",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Data_di_pronuncia_del_Divorzio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_pronuncia_del_Divorzio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Autorità_che_ha_celebrato_il_matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Autorità_che_ha_celebrato_il_matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -337,6 +459,10 @@
     },
     "In_Bollo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/In_Bollo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Data_Nascita_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Nascita_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Nome_Certificato_Richiesto" : {
@@ -385,6 +511,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Plurilingua",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Data_Decesso_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Decesso_Defunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "necessitaCertificatiMandatori" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori",
       "@type" : "@id"
@@ -395,6 +525,10 @@
     },
     "Codice_Fiscale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Luogo_Decesso_Defunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Decesso_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Ordine_Collegio_di_Appartenenza" : {
@@ -445,6 +579,14 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_Residenza_Madre",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Particella" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Particella",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "PEC" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/PEC",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Documento_Rilasciato_da" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Documento_Rilasciato_da",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -468,6 +610,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Durata_Espatrio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Durata_Espatrio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Indirizzo_PA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA"
     },
@@ -486,6 +632,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Apostilla",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "possiede" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/possiede",
+      "@type" : "@id"
+    },
     "Cognome" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -494,8 +644,12 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Reddito_Complessivo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "datatypeProperty107" : {
-      "@id" : "https://gcarau.github.io/RichiestaCertificati/datatypeProperty107",
+    "Tipo_di_Arma" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_di_Arma",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Data_di_deposito_della_sentenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_deposito_della_sentenza",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     }
   }
