@@ -113,7 +113,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.9"
+    "@value" : "0.10"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi",
