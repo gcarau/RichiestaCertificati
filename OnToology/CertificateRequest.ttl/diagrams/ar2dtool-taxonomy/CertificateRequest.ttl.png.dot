@@ -1,7 +1,8 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "cro:Domicilio" "cro:Certificato" "cro:Residenza" "cro:Certificato_Per_ExtraCommunitario" "cro:Indirizzo_Azienda" "cro:Indirizzo_Immobile" "cro:Certificato_Per_Minorenne" "cro:Indirizzo" "cro:Indirizzo_PA" ; /*classes style*/
+node [shape = rectangle, color="black"]; "cro:Domicilio" "cro:Certificato" "cro:Residenza" "cro:Certificato_Per_ExtraCommunitario" "cro:Non_Publica_Amministrazione" "cro:Indirizzo_Azienda" "cro:Indirizzo_Immobile" "cro:Certificato_Per_Minorenne" "cro:Indirizzo" "cro:Indirizzo_PA" "cro:Publica_Amministrazione" ; /*classes style*/
+	"cro:Non_Publica_Amministrazione" -> "cro:Publica_Amministrazione" [ label = "rdfs:subClassOf" ];
 	"cro:Certificato_Per_Minorenne" -> "cro:Certificato" [ label = "rdfs:subClassOf" ];
 	"cro:Indirizzo_Azienda" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
 	"cro:Certificato_Per_ExtraCommunitario" -> "cro:Certificato" [ label = "rdfs:subClassOf" ];
