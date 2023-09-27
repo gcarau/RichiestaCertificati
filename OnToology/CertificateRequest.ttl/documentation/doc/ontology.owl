@@ -9,9 +9,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://gcarau.github.io/RichiestaCertificati/">
         <dc:creator>Giovanni Carau</dc:creator>
-        <dc:description xml:lang="en">This is an ontology describing concept in the certificate request made to public administrations domain</dc:description>
+        <dc:description xml:lang="en">This is an ontology describing concepts in the certificate request made to public administrations domain</dc:description>
         <dc:title xml:lang="en">CertificateRequestOntology</dc:title>
-        <owl:versionInfo xml:lang="en">0.10</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">0.12</owl:versionInfo>
     </owl:Ontology>
     
 
