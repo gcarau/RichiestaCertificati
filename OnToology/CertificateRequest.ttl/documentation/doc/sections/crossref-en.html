@@ -50,6 +50,10 @@ This section provides details for each class and property defined by Certificate
             title="https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA">Indirizzo PA</a>
       </li>
       <li>
+         <a href="#https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione"
+            title="https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione">Non Publica Amministrazione</a>
+      </li>
+      <li>
          <a href="#https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
             title="https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione">Publica Amministrazione</a>
       </li>
@@ -100,6 +104,12 @@ This section provides details for each class and property defined by Certificate
                title="https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda">indirizzo Azienda</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://gcarau.github.io/RichiestaCertificati/lavora_Per"
+               title="https://gcarau.github.io/RichiestaCertificati/lavora_Per">lavora Per</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/Certificato">
@@ -124,8 +134,8 @@ This section provides details for each class and property defined by Certificate
                title="https://gcarau.github.io/RichiestaCertificati/MInorenne">MInorenne</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/Nome_Certificato"
                title="https://gcarau.github.io/RichiestaCertificati/Nome_Certificato">Nome Certificato</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/gestitoDA"
-               title="https://gcarau.github.io/RichiestaCertificati/gestitoDA">gestito Da</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/rilasciato_Da"
+               title="https://gcarau.github.io/RichiestaCertificati/rilasciato_Da">rilasciato Da</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -340,6 +350,22 @@ This section provides details for each class and property defined by Certificate
          </dd>
       </dl>
    </div>
+   <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione">
+      <h3>Non Publica Amministrazione<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+               title="https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione">Publica Amministrazione</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione">
       <h3>Publica Amministrazione<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -350,6 +376,12 @@ This section provides details for each class and property defined by Certificate
       <dl class="description">
          <dt>has super-classes</dt>
          <dd/>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione"
+               title="https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione">Non Publica Amministrazione</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in domain of</dt>
          <dd>
             <a href="#https://gcarau.github.io/RichiestaCertificati/Email_PA"
@@ -366,8 +398,8 @@ This section provides details for each class and property defined by Certificate
          <dd>
             <a href="#https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA"
                title="https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA">Inoltrata Alla PA</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/gestitoDA"
-               title="https://gcarau.github.io/RichiestaCertificati/gestitoDA">gestito Da</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/rilasciato_Da"
+               title="https://gcarau.github.io/RichiestaCertificati/rilasciato_Da">rilasciato Da</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -472,7 +504,9 @@ This section provides details for each class and property defined by Certificate
                title="https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione">Tempi di Evasione</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/Titolo_di_Studio"
                title="https://gcarau.github.io/RichiestaCertificati/Titolo_di_Studio">Titolo di Studio</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/lavora_Per"
+               title="https://gcarau.github.io/RichiestaCertificati/lavora_Per">lavora Per</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene"
                title="https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene">richiedente Appartiene</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -638,10 +672,6 @@ This section provides details for each class and property defined by Certificate
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#https://gcarau.github.io/RichiestaCertificati/gestitoDA"
-            title="https://gcarau.github.io/RichiestaCertificati/gestitoDA">gestito Da</a>
-      </li>
-      <li>
          <a href="#https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda"
             title="https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda">indirizzo Azienda</a>
       </li>
@@ -658,6 +688,10 @@ This section provides details for each class and property defined by Certificate
             title="https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA">Inoltrata Alla PA</a>
       </li>
       <li>
+         <a href="#https://gcarau.github.io/RichiestaCertificati/lavora_Per"
+            title="https://gcarau.github.io/RichiestaCertificati/lavora_Per">lavora Per</a>
+      </li>
+      <li>
          <a href="#https://gcarau.github.io/RichiestaCertificati/relativa_A"
             title="https://gcarau.github.io/RichiestaCertificati/relativa_A">relativa A</a>
       </li>
@@ -669,31 +703,11 @@ This section provides details for each class and property defined by Certificate
          <a href="#https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene"
             title="https://gcarau.github.io/RichiestaCertificati/richiedenteAppartiene">richiedente Appartiene</a>
       </li>
+      <li>
+         <a href="#https://gcarau.github.io/RichiestaCertificati/rilasciato_Da"
+            title="https://gcarau.github.io/RichiestaCertificati/rilasciato_Da">rilasciato Da</a>
+      </li>
    </ul>
-   <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/gestitoDA">
-      <h3>gestito Da<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://gcarau.github.io/RichiestaCertificati/gestitoDA</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://gcarau.github.io/RichiestaCertificati/Certificato"
-                  title="https://gcarau.github.io/RichiestaCertificati/Certificato">Certificato</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
-                  title="https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione">Publica Amministrazione</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda">
       <h3>indirizzo Azienda<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -790,6 +804,30 @@ This section provides details for each class and property defined by Certificate
          </dl>
       </div>
    </div>
+   <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/lavora_Per">
+      <h3>lavora Per<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://gcarau.github.io/RichiestaCertificati/lavora_Per</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://gcarau.github.io/RichiestaCertificati/Richiedente"
+                  title="https://gcarau.github.io/RichiestaCertificati/Richiedente">Richiedente</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://gcarau.github.io/RichiestaCertificati/Azienda"
+                  title="https://gcarau.github.io/RichiestaCertificati/Azienda">Azienda</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/relativa_A">
       <h3>relativa A<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -857,6 +895,30 @@ This section provides details for each class and property defined by Certificate
             <dd>
                <a href="#https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti"
                   title="https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti">Gruppo Richiedenti</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://gcarau.github.io/RichiestaCertificati/rilasciato_Da">
+      <h3>rilasciato Da<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://gcarau.github.io/RichiestaCertificati/rilasciato_Da</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://gcarau.github.io/RichiestaCertificati/Certificato"
+                  title="https://gcarau.github.io/RichiestaCertificati/Certificato">Certificato</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+                  title="https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione">Publica Amministrazione</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
