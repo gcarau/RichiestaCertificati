@@ -11,8 +11,8 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"NULL" -> "cro:indirizziRichiestaCertificato" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:PA_Gestisce" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:richiestaSingoloRichiedente" [ label = "owl:onProperty" ];
+	"NULL" -> "cro:rilascia" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:effettuaRichiestaGruppo" [ label = "owl:onProperty" ];
-	"NULL" -> "cro:PAGestisce" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:Indirizzo" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "cro:RichiestaCertificato" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "cro:titolare_Di" [ label = "owl:onProperty" ];
@@ -89,7 +89,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Comune_di_Nascita" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Motivo_Espatrio" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Intestazione_dei_Beni_Defunto" ];
-	"cro:Certificato" -> "cro:Publica_Amministrazione" [ label = "cro:gestitoDA" ];
+	"cro:Richiedente" -> "cro:Azienda" [ label = "cro:lavora_Per" ];
 	"cro:Publica_Amministrazione" -> "rdfs:Literal" [ label = "cro:Sito_PA" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Tipo_Agevolazione_Richiesta" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Apostilla" ];
@@ -133,6 +133,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Destinazione_Espatrio" ];
 	"cro:Azienda" -> "rdfs:Literal" [ label = "cro:Denominazione" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Numero_di_ruolo_della_sentenza" ];
+	"cro:Certificato" -> "cro:Publica_Amministrazione" [ label = "cro:rilasciato_Da" ];
 	"cro:Richiedente" -> "cro:Gruppo_Richiedenti" [ label = "cro:richiedenteAppartiene" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Data_di_deposito_della_sentenza" ];
 	"cro:Immobile" -> "rdfs:Literal" [ label = "cro:Comune_Immobile" ];

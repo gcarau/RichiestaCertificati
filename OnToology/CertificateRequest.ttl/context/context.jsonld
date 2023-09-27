@@ -7,6 +7,10 @@
     "Publica_Amministrazione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
     },
+    "rilascia" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/rilascia",
+      "@type" : "@id"
+    },
     "Data_riconoscimento_Invalidità" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_riconoscimento_Invalidità",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -179,10 +183,6 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Sede_Legale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "PAGestisce" : {
-      "@id" : "https://gcarau.github.io/RichiestaCertificati/PAGestisce",
-      "@type" : "@id"
-    },
     "Situazione_Occupazionale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Situazione_Occupazionale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -272,6 +272,9 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Targa_Veicolo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Non_Publica_Amministrazione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione"
+    },
     "Cognome_Defunto" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -356,6 +359,10 @@
     "Cellulare" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cellulare",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "rilasciato_Da" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato_Da",
+      "@type" : "@id"
     },
     "Subalterno" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Subalterno",
@@ -487,10 +494,6 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolare_Ditta_individuale",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "gestitoDA" : {
-      "@id" : "https://gcarau.github.io/RichiestaCertificati/gestitoDA",
-      "@type" : "@id"
-    },
     "Titolo_di_Studio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolo_di_Studio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -605,6 +608,10 @@
     },
     "RichiestaCertificato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+    },
+    "lavora_Per" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/lavora_Per",
+      "@type" : "@id"
     },
     "Disponibilità_di_Mezzi_Economici" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici",
