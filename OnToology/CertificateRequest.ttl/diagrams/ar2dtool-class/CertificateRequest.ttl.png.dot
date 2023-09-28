@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro:Immobile" "cro:Gruppo_Richiedenti" "cro:Indirizzo" "cro:Richiedente" "cro:Azienda" "cro:Publica_Amministrazione" "cro:RichiestaCertificato" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro:E" "cro:Immobile" "cro:Gruppo_Richiedenti" "cro:Indirizzo" "cro:Richiedente" "cro:Azienda" "cro:RichiestaCertificato" ; /*classes style*/
 	"NULL" -> "cro:Azienda" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "cro:gruppoRichiedentiInclude" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:necessitaCertificatiMandatori" [ label = "owl:onProperty" ];
@@ -9,9 +9,9 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"NULL" -> "cro:possiede" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:indirizzoRichiedente" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:indirizziRichiestaCertificato" [ label = "owl:onProperty" ];
-	"NULL" -> "cro:PA_Gestisce" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:richiestaSingoloRichiedente" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:rilascia" [ label = "owl:onProperty" ];
+	"NULL" -> "cro:gestisce" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:effettuaRichiestaGruppo" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:Indirizzo" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "cro:RichiestaCertificato" [ label = "owl:someValuesFrom" ];
@@ -23,6 +23,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:Residenza" -> "rdfs:Literal" [ label = "cro:Residenza_Ad_Anno" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Targa_Veicolo" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Comune_di_Celebrazione_Matrimonio" ];
+	"cro:RichiestaCertificato" -> "cro:E" [ label = "cro:Inoltrato_A" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Tempi_di_Evasione" ];
 	"cro:Azienda" -> "rdfs:Literal" [ label = "cro:Uso_Cessione_Azienda" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Cittadinanza_Defunto" ];
@@ -47,7 +48,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Stato_Civile_Defunto" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:PeriodoStorico" ];
 	"cro:Immobile" -> "rdfs:Literal" [ label = "cro:Sezione" ];
-	"cro:Publica_Amministrazione" -> "rdfs:Literal" [ label = "cro:Email_PA" ];
+	"cro:E" -> "rdfs:Literal" [ label = "cro:Email_PA" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Ordine_Collegio_di_Appartenenza" ];
 	"cro:Azienda" -> "rdfs:Literal" [ label = "cro:Titolare_Ditta_individuale" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Durata_Espatrio" ];
@@ -65,6 +66,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Luogo_Decesso" ];
 	"cro:Certificato" -> "rdfs:Literal" [ label = "cro:Nome_Certificato" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:In_Bollo" ];
+	"cro:Certificato" -> "cro:E" [ label = "cro:rilasciato" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Anno_di_Imposta" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Comune_Battesimo" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Data_Decesso_Defunto" ];
@@ -85,19 +87,18 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:Azienda" -> "cro:Indirizzo" [ label = "cro:indirizzo_Azienda" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Motivo_del_Viaggio" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Assicurazione_Sanitaria" ];
-	"cro:Publica_Amministrazione" -> "rdfs:Literal" [ label = "cro:Nome_PA" ];
+	"cro:E" -> "rdfs:Literal" [ label = "cro:Nome_PA" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Comune_di_Nascita" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Motivo_Espatrio" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Intestazione_dei_Beni_Defunto" ];
 	"cro:Richiedente" -> "cro:Azienda" [ label = "cro:lavora_Per" ];
-	"cro:Publica_Amministrazione" -> "rdfs:Literal" [ label = "cro:Sito_PA" ];
+	"cro:E" -> "rdfs:Literal" [ label = "cro:Sito_PA" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Tipo_Agevolazione_Richiesta" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Apostilla" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Comune_Matrimonio" ];
 	"cro:Indirizzo" -> "rdfs:Literal" [ label = "cro:Regione" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:fData_Matrimonio" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Stato_Nascita_Figlio" ];
-	"cro:Publica_Amministrazione" -> "cro:Indirizzo" [ label = "cro:IndirizzoPA" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Data_di_Nascita" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Sesso" ];
 	"cro:Immobile" -> "rdfs:Literal" [ label = "cro:Subalterno" ];
@@ -133,7 +134,6 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Destinazione_Espatrio" ];
 	"cro:Azienda" -> "rdfs:Literal" [ label = "cro:Denominazione" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Numero_di_ruolo_della_sentenza" ];
-	"cro:Certificato" -> "cro:Publica_Amministrazione" [ label = "cro:rilasciato_Da" ];
 	"cro:Richiedente" -> "cro:Gruppo_Richiedenti" [ label = "cro:richiedenteAppartiene" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Data_di_deposito_della_sentenza" ];
 	"cro:Immobile" -> "rdfs:Literal" [ label = "cro:Comune_Immobile" ];
@@ -148,6 +148,7 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Data_rilascio_Documento" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Provincia_Battesimo" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Stato_Civile" ];
+	"cro:E" -> "cro:Indirizzo" [ label = "cro:indirizzo_Ente" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Luogo_Decesso_Defunto" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Paese_di_Nascita" ];
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Cellulare" ];
@@ -155,7 +156,6 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"cro:Richiedente" -> "rdfs:Literal" [ label = "cro:Situazione_Occupazionale" ];
 	"cro:RichiestaCertificato" -> "rdfs:Literal" [ label = "cro:Numero_Telaio_Veicolo" ];
 	"cro:Indirizzo" -> "rdfs:Literal" [ label = "cro:Cap" ];
-	"cro:RichiestaCertificato" -> "cro:Publica_Amministrazione" [ label = "cro:InoltrataAllaPA" ];
 	"cro:Immobile" -> "cro:Indirizzo" [ label = "cro:indirizzoImmobile" ];
 
 }

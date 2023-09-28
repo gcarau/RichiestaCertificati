@@ -10,7 +10,7 @@
                                                   <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" ;
                                                   <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en ;
-                                                  owl:versionInfo "0.10"@en .
+                                                  owl:versionInfo "0.13"@en .
 
 #################################################################
 #    Annotation properties
@@ -32,28 +32,20 @@
 #    Object Properties
 #################################################################
 
-###  https://gcarau.github.io/RichiestaCertificati/IndirizzoPA
-:IndirizzoPA rdf:type owl:ObjectProperty ;
-             rdfs:domain :Publica_Amministrazione ;
-             rdfs:range :Indirizzo ;
-             rdfs:label "Indirizzo PA"@en ,
-                        "IndirizzoPA"@iri-based .
-
-
-###  https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA
-:InoltrataAllaPA rdf:type owl:ObjectProperty ;
-                 rdfs:domain :RichiestaCertificato ;
-                 rdfs:range :Publica_Amministrazione ;
-                 rdfs:label "Inoltrata Alla PA"@en ,
-                            "InoltrataAllaPA"@iri-based .
-
-
-###  https://gcarau.github.io/RichiestaCertificati/PA_Gestisce
-:PA_Gestisce rdf:type owl:ObjectProperty .
+###  https://gcarau.github.io/RichiestaCertificati/Inoltrato_A
+:Inoltrato_A rdf:type owl:ObjectProperty ;
+             rdfs:domain :RichiestaCertificato ;
+             rdfs:range :E ;
+             rdfs:label "Inoltrato A "@en ,
+                        "Inoltrato_A"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo
 :effettuaRichiestaGruppo rdf:type owl:ObjectProperty .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/gestisce
+:gestisce rdf:type owl:ObjectProperty .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude
@@ -84,11 +76,20 @@
                               "indirizzo_Azienda"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente
+:indirizzo_Ente rdf:type owl:ObjectProperty ;
+                rdfs:domain :E ;
+                rdfs:range :Indirizzo ;
+                rdfs:label "Indirizzo Ente"@en ,
+                           "indirizzo_Ente"@iri-based .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/lavora_Per
 :lavora_Per rdf:type owl:ObjectProperty ;
             rdfs:domain :Richiedente ;
             rdfs:range :Azienda ;
-            rdfs:label "lavora Per"@en .
+            rdfs:label "lavora Per"@en ,
+                       "lavora_Per"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori
@@ -131,11 +132,12 @@
 :rilascia rdf:type owl:ObjectProperty .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/rilasciato_Da
-:rilasciato_Da rdf:type owl:ObjectProperty ;
-               rdfs:domain :Certificato ;
-               rdfs:range :Publica_Amministrazione ;
-               rdfs:label "rilasciato Da"@en .
+###  https://gcarau.github.io/RichiestaCertificati/rilasciato
+:rilasciato rdf:type owl:ObjectProperty ;
+            rdfs:domain :Certificato ;
+            rdfs:range :E ;
+            rdfs:label "rilasciato"@en ,
+                       "rilasciato"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/titolare_Di
@@ -500,7 +502,7 @@
 
 ###  https://gcarau.github.io/RichiestaCertificati/Email_PA
 :Email_PA rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Publica_Amministrazione ;
+          rdfs:domain :E ;
           rdfs:range rdfs:Literal ;
           rdfs:label "Email PA"@en ,
                      "Email_PA"@iri-based .
@@ -740,7 +742,7 @@
 
 ###  https://gcarau.github.io/RichiestaCertificati/Nome_PA
 :Nome_PA rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Publica_Amministrazione ;
+         rdfs:domain :E ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Nome PA"@en ,
                     "Nome_PA"@iri-based .
@@ -964,7 +966,7 @@
 
 ###  https://gcarau.github.io/RichiestaCertificati/Sito_PA
 :Sito_PA rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Publica_Amministrazione ;
+         rdfs:domain :E ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Sito PA"@en ,
                     "Sito_PA"@iri-based .
@@ -1223,6 +1225,27 @@
                       "Domicilio"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/E
+:E rdf:type owl:Class ;
+   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                     owl:onProperty :gestisce ;
+                     owl:someValuesFrom :RichiestaCertificato
+                   ] ,
+                   [ rdf:type owl:Restriction ;
+                     owl:onProperty :rilascia ;
+                     owl:someValuesFrom :Certificato
+                   ] ;
+   rdfs:label "E"@iri-based ,
+              "Ente"@en .
+
+
+###  https://gcarau.github.io/RichiestaCertificati/Ente_Privato
+:Ente_Privato rdf:type owl:Class ;
+              rdfs:subClassOf :E ;
+              rdfs:label "Ente Privato"@en ,
+                         "Ente_Privato"@iri-based .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti
 :Gruppo_Richiedenti rdf:type owl:Class ;
                     rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -1256,6 +1279,12 @@
                               "Indirizzo_Azienda"@iri-based .
 
 
+###  https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente
+:Indirizzo_Ente rdf:type owl:Class ;
+                rdfs:subClassOf :Indirizzo ;
+                rdfs:label "Indirizzo Ente"@en .
+
+
 ###  https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile
 :Indirizzo_Immobile rdf:type owl:Class ;
                     rdfs:subClassOf :Indirizzo ;
@@ -1263,31 +1292,11 @@
                                "Indirizzo_Immobile"@iri-based .
 
 
-###  https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA
-:Indirizzo_PA rdf:type owl:Class ;
-              rdfs:subClassOf :Indirizzo ;
-              rdfs:label "Indirizzo PA"@en ,
-                         "Indirizzo_PA"@iri-based .
-
-
-###  https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione
-:Non_Publica_Amministrazione rdf:type owl:Class ;
-                             rdfs:subClassOf :Publica_Amministrazione ;
-                             rdfs:label "Non Publica Amministrazione"@en .
-
-
-###  https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione
-:Publica_Amministrazione rdf:type owl:Class ;
-                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                           owl:onProperty :PA_Gestisce ;
-                                           owl:someValuesFrom :RichiestaCertificato
-                                         ] ,
-                                         [ rdf:type owl:Restriction ;
-                                           owl:onProperty :rilascia ;
-                                           owl:someValuesFrom :Certificato
-                                         ] ;
-                         rdfs:label "Publica Amministrazione"@en ,
-                                    "Publica_Amministrazione"@iri-based .
+###  https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione
+:Pubblica_Ammministrazione rdf:type owl:Class ;
+                           rdfs:subClassOf :E ;
+                           rdfs:label "Pubblica Ammministrazione"@en ,
+                                      "Pubblica_Ammministrazione"@iri-based .
 
 
 ###  https://gcarau.github.io/RichiestaCertificati/Residenza

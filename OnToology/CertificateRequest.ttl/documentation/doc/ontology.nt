@@ -2,7 +2,7 @@
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/creator> "Giovanni Carau" .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/description> "This is an ontology describing concept in the certificate request made to public administrations domain"@en .
 <https://gcarau.github.io/RichiestaCertificati/> <http://purl.org/dc/elements/1.1/title> "CertificateRequestOntology"@en .
-<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.10"@en .
+<https://gcarau.github.io/RichiestaCertificati/> <http://www.w3.org/2002/07/owl#versionInfo> "0.13"@en .
 # 
 # 
 # #################################################################
@@ -30,25 +30,18 @@
 # #################################################################
 # 
 # 
-# https://gcarau.github.io/RichiestaCertificati/IndirizzoPA
-<https://gcarau.github.io/RichiestaCertificati/IndirizzoPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://gcarau.github.io/RichiestaCertificati/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
-<https://gcarau.github.io/RichiestaCertificati/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/Indirizzo> .
-<https://gcarau.github.io/RichiestaCertificati/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
-<https://gcarau.github.io/RichiestaCertificati/IndirizzoPA> <http://www.w3.org/2000/01/rdf-schema#label> "IndirizzoPA"@iri-based .
-# 
-# https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA
-<https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
-<https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
-<https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "Inoltrata Alla PA"@en .
-<https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA> <http://www.w3.org/2000/01/rdf-schema#label> "InoltrataAllaPA"@iri-based .
-# 
-# https://gcarau.github.io/RichiestaCertificati/PA_Gestisce
-<https://gcarau.github.io/RichiestaCertificati/PA_Gestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://gcarau.github.io/RichiestaCertificati/Inoltrato_A
+<https://gcarau.github.io/RichiestaCertificati/Inoltrato_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/Inoltrato_A> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
+<https://gcarau.github.io/RichiestaCertificati/Inoltrato_A> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/E> .
+<https://gcarau.github.io/RichiestaCertificati/Inoltrato_A> <http://www.w3.org/2000/01/rdf-schema#label> "Inoltrato A "@en .
+<https://gcarau.github.io/RichiestaCertificati/Inoltrato_A> <http://www.w3.org/2000/01/rdf-schema#label> "Inoltrato_A"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo
 <https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://gcarau.github.io/RichiestaCertificati/gestisce
+<https://gcarau.github.io/RichiestaCertificati/gestisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude
 <https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -73,11 +66,19 @@
 <https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo Azienda"@en .
 <https://gcarau.github.io/RichiestaCertificati/indirizzo_Azienda> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo_Azienda"@iri-based .
 # 
+# https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente
+<https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/E> .
+<https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo Ente"@en .
+<https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#label> "indirizzo_Ente"@iri-based .
+# 
 # https://gcarau.github.io/RichiestaCertificati/lavora_Per
 <https://gcarau.github.io/RichiestaCertificati/lavora_Per> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://gcarau.github.io/RichiestaCertificati/lavora_Per> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Richiedente> .
 <https://gcarau.github.io/RichiestaCertificati/lavora_Per> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/Azienda> .
 <https://gcarau.github.io/RichiestaCertificati/lavora_Per> <http://www.w3.org/2000/01/rdf-schema#label> "lavora Per"@en .
+<https://gcarau.github.io/RichiestaCertificati/lavora_Per> <http://www.w3.org/2000/01/rdf-schema#label> "lavora_Per"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori
 <https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -112,11 +113,12 @@
 # https://gcarau.github.io/RichiestaCertificati/rilascia
 <https://gcarau.github.io/RichiestaCertificati/rilascia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://gcarau.github.io/RichiestaCertificati/rilasciato_Da
-<https://gcarau.github.io/RichiestaCertificati/rilasciato_Da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://gcarau.github.io/RichiestaCertificati/rilasciato_Da> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
-<https://gcarau.github.io/RichiestaCertificati/rilasciato_Da> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
-<https://gcarau.github.io/RichiestaCertificati/rilasciato_Da> <http://www.w3.org/2000/01/rdf-schema#label> "rilasciato Da"@en .
+# https://gcarau.github.io/RichiestaCertificati/rilasciato
+<https://gcarau.github.io/RichiestaCertificati/rilasciato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://gcarau.github.io/RichiestaCertificati/rilasciato> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
+<https://gcarau.github.io/RichiestaCertificati/rilasciato> <http://www.w3.org/2000/01/rdf-schema#range> <https://gcarau.github.io/RichiestaCertificati/E> .
+<https://gcarau.github.io/RichiestaCertificati/rilasciato> <http://www.w3.org/2000/01/rdf-schema#label> "rilasciato"@en .
+<https://gcarau.github.io/RichiestaCertificati/rilasciato> <http://www.w3.org/2000/01/rdf-schema#label> "rilasciato"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/titolare_Di
 <https://gcarau.github.io/RichiestaCertificati/titolare_Di> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -440,7 +442,7 @@
 # 
 # https://gcarau.github.io/RichiestaCertificati/Email_PA
 <https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/E> .
 <https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email PA"@en .
 <https://gcarau.github.io/RichiestaCertificati/Email_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Email_PA"@iri-based .
@@ -650,7 +652,7 @@
 # 
 # https://gcarau.github.io/RichiestaCertificati/Nome_PA
 <https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/E> .
 <https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome PA"@en .
 <https://gcarau.github.io/RichiestaCertificati/Nome_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Nome_PA"@iri-based .
@@ -846,7 +848,7 @@
 # 
 # https://gcarau.github.io/RichiestaCertificati/Sito_PA
 <https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
+<https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gcarau.github.io/RichiestaCertificati/E> .
 <https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito PA"@en .
 <https://gcarau.github.io/RichiestaCertificati/Sito_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Sito_PA"@iri-based .
@@ -1077,16 +1079,35 @@
 <https://gcarau.github.io/RichiestaCertificati/Domicilio> <http://www.w3.org/2000/01/rdf-schema#label> "Domicilio"@en .
 <https://gcarau.github.io/RichiestaCertificati/Domicilio> <http://www.w3.org/2000/01/rdf-schema#label> "Domicilio"@iri-based .
 # 
+# https://gcarau.github.io/RichiestaCertificati/E
+<https://gcarau.github.io/RichiestaCertificati/E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/E> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/gestisce> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gcarau.github.io/RichiestaCertificati/E> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/rilascia> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gcarau.github.io/RichiestaCertificati/E> <http://www.w3.org/2000/01/rdf-schema#label> "E"@iri-based .
+<https://gcarau.github.io/RichiestaCertificati/E> <http://www.w3.org/2000/01/rdf-schema#label> "Ente"@en .
+# 
+# https://gcarau.github.io/RichiestaCertificati/Ente_Privato
+<https://gcarau.github.io/RichiestaCertificati/Ente_Privato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/Ente_Privato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/E> .
+<https://gcarau.github.io/RichiestaCertificati/Ente_Privato> <http://www.w3.org/2000/01/rdf-schema#label> "Ente Privato"@en .
+<https://gcarau.github.io/RichiestaCertificati/Ente_Privato> <http://www.w3.org/2000/01/rdf-schema#label> "Ente_Privato"@iri-based .
+# 
 # https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti
 <https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
-_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
-_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/Richiedente> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/Richiedente> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo Richiedenti"@en .
 <https://gcarau.github.io/RichiestaCertificati/Gruppo_Richiedenti> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo_Richiedenti"@iri-based .
 # 
@@ -1106,35 +1127,22 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo Azienda"@en .
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo_Azienda"@iri-based .
 # 
+# https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente
+<https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Indirizzo> .
+<https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo Ente"@en .
+# 
 # https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Indirizzo> .
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo Immobile"@en .
 <https://gcarau.github.io/RichiestaCertificati/Indirizzo_Immobile> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo_Immobile"@iri-based .
 # 
-# https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA
-<https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Indirizzo> .
-<https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo PA"@en .
-<https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA> <http://www.w3.org/2000/01/rdf-schema#label> "Indirizzo_PA"@iri-based .
-# 
-# https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione
-<https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> .
-<https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Non Publica Amministrazione"@en .
-# 
-# https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione
-<https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/PA_Gestisce> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
-_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gcarau.github.io/RichiestaCertificati/Certificato> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://gcarau.github.io/RichiestaCertificati/rilascia> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica Amministrazione"@en .
-<https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Publica_Amministrazione"@iri-based .
+# https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione
+<https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gcarau.github.io/RichiestaCertificati/E> .
+<https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Pubblica Ammministrazione"@en .
+<https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione> <http://www.w3.org/2000/01/rdf-schema#label> "Pubblica_Ammministrazione"@iri-based .
 # 
 # https://gcarau.github.io/RichiestaCertificati/Residenza
 <https://gcarau.github.io/RichiestaCertificati/Residenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
