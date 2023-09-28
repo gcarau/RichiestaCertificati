@@ -2,7 +2,7 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/gestisce"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
@@ -20,16 +20,16 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/rilascia"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/PA_Gestisce"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/effettuaRichiestaGruppo"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
@@ -38,10 +38,10 @@
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/rilascia"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -113,7 +113,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.10"
+    "@value" : "0.13"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi",
@@ -863,6 +863,21 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/E",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "iri-based",
+    "@value" : "E"
+  }, {
+    "@language" : "en",
+    "@value" : "Ente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Email",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -882,7 +897,7 @@
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Email_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -893,6 +908,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Ente_Privato",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ente Privato"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Ente_Privato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Eta",
@@ -985,9 +1013,9 @@
     "@value" : "Gruppo_Richiedenti"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid1"
+    "@id" : "_:genid3"
   }, {
-    "@id" : "_:genid2"
+    "@id" : "_:genid4"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Immobile",
@@ -1026,22 +1054,6 @@
     "@value" : "Indirizzo"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/IndirizzoPA",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Indirizzo PA"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "IndirizzoPA"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
-  } ]
-}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Azienda",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -1050,6 +1062,16 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Indirizzo_Azienda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Ente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indirizzo Ente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
@@ -1068,33 +1090,20 @@
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_PA",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Indirizzo PA"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "Indirizzo_PA"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
-  } ]
-}, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/InoltrataAllaPA",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Inoltrato_A",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Inoltrata Alla PA"
+    "@value" : "Inoltrato A "
   }, {
     "@language" : "iri-based",
-    "@value" : "InoltrataAllaPA"
+    "@value" : "Inoltrato_A"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Intestazione_dei_Beni_Defunto",
@@ -1468,7 +1477,7 @@
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1479,16 +1488,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/Non_Publica_Amministrazione",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Non Publica Amministrazione"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Note",
@@ -1651,9 +1650,6 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/PA_Gestisce",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/PEC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1798,19 +1794,17 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Pubblica_Ammministrazione",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Publica Amministrazione"
+    "@value" : "Pubblica Ammministrazione"
   }, {
     "@language" : "iri-based",
-    "@value" : "Publica_Amministrazione"
+    "@value" : "Pubblica_Ammministrazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid3"
-  }, {
-    "@id" : "_:genid4"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Qualifica_Professionale",
@@ -1991,7 +1985,7 @@
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Sito_PA",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2439,6 +2433,9 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/gestisce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/gruppoRichiedentiInclude",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
@@ -2480,6 +2477,22 @@
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzo_Ente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indirizzo Ente"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "indirizzo_Ente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/lavora_Per",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -2488,6 +2501,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "lavora Per"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "lavora_Per"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Azienda"
@@ -2553,17 +2569,20 @@
   "@id" : "https://gcarau.github.io/RichiestaCertificati/rilascia",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato_Da",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "rilasciato Da"
+    "@value" : "rilasciato"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "rilasciato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://gcarau.github.io/RichiestaCertificati/Publica_Amministrazione"
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/titolare_Di",

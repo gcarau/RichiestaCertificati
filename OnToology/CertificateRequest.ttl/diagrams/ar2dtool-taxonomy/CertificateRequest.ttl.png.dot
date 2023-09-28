@@ -1,14 +1,15 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "cro:Domicilio" "cro:Certificato" "cro:Residenza" "cro:Certificato_Per_ExtraCommunitario" "cro:Non_Publica_Amministrazione" "cro:Indirizzo_Azienda" "cro:Indirizzo_Immobile" "cro:Certificato_Per_Minorenne" "cro:Indirizzo" "cro:Indirizzo_PA" "cro:Publica_Amministrazione" ; /*classes style*/
-	"cro:Non_Publica_Amministrazione" -> "cro:Publica_Amministrazione" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "cro:Domicilio" "cro:Certificato" "cro:Residenza" "cro:Certificato_Per_ExtraCommunitario" "cro:E" "cro:Ente_Privato" "cro:Indirizzo_Ente" "cro:Pubblica_Ammministrazione" "cro:Indirizzo_Azienda" "cro:Indirizzo_Immobile" "cro:Certificato_Per_Minorenne" "cro:Indirizzo" ; /*classes style*/
+	"cro:Pubblica_Ammministrazione" -> "cro:E" [ label = "rdfs:subClassOf" ];
 	"cro:Certificato_Per_Minorenne" -> "cro:Certificato" [ label = "rdfs:subClassOf" ];
+	"cro:Indirizzo_Ente" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
 	"cro:Indirizzo_Azienda" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
+	"cro:Ente_Privato" -> "cro:E" [ label = "rdfs:subClassOf" ];
 	"cro:Certificato_Per_ExtraCommunitario" -> "cro:Certificato" [ label = "rdfs:subClassOf" ];
 	"cro:Residenza" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
 	"cro:Domicilio" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
-	"cro:Indirizzo_PA" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
 	"cro:Indirizzo_Immobile" -> "cro:Indirizzo" [ label = "rdfs:subClassOf" ];
 
 }
