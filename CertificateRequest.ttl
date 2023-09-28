@@ -9,17 +9,17 @@
 @prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: 		<http://purl.org/dc/elements/1.1/> .
 @prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix cro: 		<https://gcarau.github.io/RichiestaCertificati/> .
 @prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix : 		<https://gcarau.github.io/RichiestaCertificati/> .
 @prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
-@prefix cro: 		<https://gcarau.github.io/RichiestaCertificati/> .
-@prefix : 		<https://gcarau.github.io/RichiestaCertificati/> .
 @base 			<https://gcarau.github.io/RichiestaCertificati/> .
 
 <https://gcarau.github.io/RichiestaCertificati/> rdf:type owl:Ontology ;
                                                  dc:title "CertificateRequestOntology"@en; 
-                                                 dc:description "This is an ontology describing concepts in the certificate request made to public administrations domain"@en; 
-                                                 owl:versionInfo "0.12"@en;
+                                                 dc:description "This is an ontology describing concept in the certificate request made to public administrations domain"@en; 
+                                                 owl:versionInfo "0.13"@en;
                                                  dc:creator "Giovanni Carau" . 
 #################################################################
 
@@ -34,12 +34,14 @@
 #  --------------------------- Property 1------------------------- 
 :Numero_di_ruolo_della_sentenza rdf:type owl:DatatypeProperty ;
                                 rdfs:label "Numero_di_ruolo_della_sentenza"@IRI-based; 
+                                rdfs:label "Numero_di_ruolo_della_sentenza"@iri-based; 
                                 rdfs:label "Numero di ruolo della sentenza"@en; 
                                 rdfs:domain :RichiestaCertificato;
                                 rdfs:range rdfs:Literal . 
 #  --------------------------- Property 2------------------------- 
 :Luogo_Nascita_Defunto rdf:type owl:DatatypeProperty ;
                        rdfs:label "Luogo_Nascita_Defunto"@IRI-based; 
+                       rdfs:label "Luogo_Nascita_Defunto"@iri-based; 
                        rdfs:label "Luogo Nascita Defunto"@en; 
                        rdfs:domain :RichiestaCertificato;
                        rdfs:range rdfs:Literal . 
@@ -67,6 +69,7 @@
 #  --------------------------- Property 6------------------------- 
 :Luogo_Decesso rdf:type owl:DatatypeProperty ;
                rdfs:label "Luogo_Decesso"@IRI-based; 
+               rdfs:label "Luogo_Decesso"@iri-based; 
                rdfs:label "Luogo Decesso"@en; 
                rdfs:domain :Richiedente;
                rdfs:range rdfs:Literal . 
@@ -108,12 +111,14 @@
 #  --------------------------- Property 12------------------------- 
 :Foglio rdf:type owl:DatatypeProperty ;
         rdfs:label "Foglio"@IRI-based; 
+        rdfs:label "Foglio"@iri-based; 
         rdfs:label "Foglio"@en; 
         rdfs:domain :Immobile;
         rdfs:range rdfs:Literal . 
 #  --------------------------- Property 13------------------------- 
 :Grado_Invalidità rdf:type owl:DatatypeProperty ;
                   rdfs:label "Grado_Invalidità"@IRI-based; 
+                  rdfs:label "Grado_Invalidità"@iri-based; 
                   rdfs:label "Grado Invalidità"@en; 
                   rdfs:domain :RichiestaCertificato;
                   rdfs:range rdfs:Literal . 
@@ -153,309 +158,326 @@
        rdfs:domain :Richiedente;
        rdfs:range rdfs:Literal . 
 #  --------------------------- Property 19------------------------- 
-:rilasciato_Da rdf:type owl:ObjectProperty ;
-               rdfs:label "rilasciato Da"@en; 
-               rdfs:domain :Certificato;
-               rdfs:range :Publica_Amministrazione . 
-#  --------------------------- Property 20------------------------- 
 :Altri_Dati_rappresentativi rdf:type owl:DatatypeProperty ;
                             rdfs:label "Altri_Dati_rappresentativi"@IRI-based; 
                             rdfs:label "Altri_Dati_rappresentativi"@iri-based; 
                             rdfs:label "Altri Dati rappresentativi"@en; 
                             rdfs:domain :Azienda;
                             rdfs:range rdfs:Literal . 
-#  --------------------------- Property 21------------------------- 
+#  --------------------------- Property 20------------------------- 
 :Tipo_Agevolazione_Richiesta rdf:type owl:DatatypeProperty ;
                              rdfs:label "Tipo_Agevolazione_Richiesta"@IRI-based; 
+                             rdfs:label "Tipo_Agevolazione_Richiesta"@iri-based; 
                              rdfs:label "Tipo Agevolazione Richiesta"@en; 
                              rdfs:domain :RichiestaCertificato;
                              rdfs:range rdfs:Literal . 
-#  --------------------------- Property 22------------------------- 
+#  --------------------------- Property 21------------------------- 
 :Documento_Rilasciato_da rdf:type owl:DatatypeProperty ;
                          rdfs:label "Documento_Rilasciato_da"@IRI-based; 
                          rdfs:label "Documento_Rilasciato_da"@iri-based; 
                          rdfs:label "Documento Rilasciato da"@en; 
                          rdfs:domain :RichiestaCertificato;
                          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 22------------------------- 
+:PeriodoStorico rdf:type owl:DatatypeProperty ;
+                rdfs:label "PeriodoStorico"@IRI-based; 
+                rdfs:label "PeriodoStorico"@iri-based; 
+                rdfs:label "Periodo Storico"@en; 
+                rdfs:domain :RichiestaCertificato;
+                rdfs:range rdfs:Literal . 
 #  --------------------------- Property 23------------------------- 
 :Data_Decesso_Defunto rdf:type owl:DatatypeProperty ;
                       rdfs:label "Data_Decesso_Defunto"@IRI-based; 
+                      rdfs:label "Data_Decesso_Defunto"@iri-based; 
                       rdfs:label "Data Decesso Defunto"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
 #  --------------------------- Property 24------------------------- 
-:PeriodoStorico rdf:type owl:DatatypeProperty ;
-                rdfs:label "PeriodoStorico"@IRI-based; 
-                rdfs:label "Periodo Storico"@en; 
-                rdfs:domain :RichiestaCertificato;
-                rdfs:range rdfs:Literal . 
-#  --------------------------- Property 25------------------------- 
 :Sito_PA rdf:type owl:DatatypeProperty ;
          rdfs:label "Sito_PA"@IRI-based; 
          rdfs:label "Sito_PA"@iri-based; 
          rdfs:label "Sito PA"@en; 
-         rdfs:domain :Publica_Amministrazione;
+         rdfs:domain :E;
          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 26------------------------- 
+#  --------------------------- Property 25------------------------- 
 :Nome_Certificato rdf:type owl:DatatypeProperty ;
                   rdfs:label "Nome_Certificato"@IRI-based; 
                   rdfs:label "Nome_Certificato"@iri-based; 
                   rdfs:label "Nome Certificato"@en; 
                   rdfs:domain :Certificato;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 27------------------------- 
+#  --------------------------- Property 26------------------------- 
 :relativaAGruppo rdf:type owl:ObjectProperty ;
                  rdfs:label "relativaAGruppo"@IRI-based; 
                  rdfs:label "relativaAGruppo"@iri-based; 
                  rdfs:label "relativaAGruppo"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range :Gruppo_Richiedenti . 
-#  --------------------------- Property 28------------------------- 
+#  --------------------------- Property 27------------------------- 
 :Data_di_deposito_della_sentenza rdf:type owl:DatatypeProperty ;
                                  rdfs:label "Data_di_deposito_della_sentenza"@IRI-based; 
+                                 rdfs:label "Data_di_deposito_della_sentenza"@iri-based; 
                                  rdfs:label "Data di deposito della sentenza"@en; 
                                  rdfs:domain :RichiestaCertificato;
                                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 29------------------------- 
+#  --------------------------- Property 28------------------------- 
 :Nazionalità rdf:type owl:DatatypeProperty ;
              rdfs:label "Nazionalità"@IRI-based; 
              rdfs:label "Nazionalità"@iri-based; 
              rdfs:label "Nazionalità"@en; 
              rdfs:domain :Richiedente;
              rdfs:range rdfs:Literal . 
-#  --------------------------- Property 30------------------------- 
+#  --------------------------- Property 29------------------------- 
 :Durata_Espatrio rdf:type owl:DatatypeProperty ;
                  rdfs:label "Durata_Espatrio"@IRI-based; 
+                 rdfs:label "Durata_Espatrio"@iri-based; 
                  rdfs:label "Durata Espatrio"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 31------------------------- 
+#  --------------------------- Property 30------------------------- 
 :Tipologia_Gruppo rdf:type owl:DatatypeProperty ;
                   rdfs:label "Tipologia_Gruppo"@IRI-based; 
                   rdfs:label "Tipologia_Gruppo"@iri-based; 
                   rdfs:label "Tipologia Gruppo"@en; 
                   rdfs:domain :Gruppo_Richiedenti;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 32------------------------- 
+#  --------------------------- Property 31------------------------- 
 :indirizzoImmobile rdf:type owl:ObjectProperty ;
                    rdfs:label "indirizzoImmobile"@IRI-based; 
+                   rdfs:label "indirizzoImmobile"@iri-based; 
                    rdfs:label "indirizzoImmobile"@en; 
                    rdfs:domain :Immobile;
                    rdfs:range :Indirizzo . 
-#  --------------------------- Property 33------------------------- 
+#  --------------------------- Property 32------------------------- 
 :Luogo rdf:type owl:DatatypeProperty ;
        rdfs:label "Luogo"@IRI-based; 
        rdfs:label "Luogo"@iri-based; 
        rdfs:label "Luogo"@en; 
        rdfs:domain :Indirizzo;
        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 34------------------------- 
+#  --------------------------- Property 33------------------------- 
 :Sede_Legale rdf:type owl:DatatypeProperty ;
              rdfs:label "Sede_Legale"@IRI-based; 
              rdfs:label "Sede_Legale"@iri-based; 
              rdfs:label "Sede Legale"@en; 
              rdfs:domain :Azienda;
              rdfs:range rdfs:Literal . 
-#  --------------------------- Property 35------------------------- 
+#  --------------------------- Property 34------------------------- 
 :Nome_Gruppo rdf:type owl:DatatypeProperty ;
              rdfs:label "Nome_Gruppo"@IRI-based; 
              rdfs:label "Nome_Gruppo"@iri-based; 
              rdfs:label "Nome Gruppo"@en; 
              rdfs:domain :Gruppo_Richiedenti;
              rdfs:range rdfs:Literal . 
-#  --------------------------- Property 36------------------------- 
+#  --------------------------- Property 35------------------------- 
 :Tipo_Documento rdf:type owl:DatatypeProperty ;
                 rdfs:label "Tipo_Documento"@IRI-based; 
                 rdfs:label "Tipo_Documento"@iri-based; 
                 rdfs:label "Tipo Documento"@en; 
                 rdfs:domain :RichiestaCertificato;
                 rdfs:range rdfs:Literal . 
-#  --------------------------- Property 37------------------------- 
+#  --------------------------- Property 36------------------------- 
 :Cap rdf:type owl:DatatypeProperty ;
      rdfs:label "Cap"@IRI-based; 
      rdfs:label "Cap"@iri-based; 
      rdfs:label "Cap"@en; 
      rdfs:domain :Indirizzo;
      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 38------------------------- 
+#  --------------------------- Property 37------------------------- 
 :Destinazione_di_Uso rdf:type owl:DatatypeProperty ;
                      rdfs:label "Destinazione_di_Uso"@IRI-based; 
+                     rdfs:label "Destinazione_di_Uso"@iri-based; 
                      rdfs:label "Destinazione di Uso"@en; 
                      rdfs:domain :Immobile;
                      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 39------------------------- 
+#  --------------------------- Property 38------------------------- 
 :Tribunale_che_ha_emesso_la_sentenza rdf:type owl:DatatypeProperty ;
                                      rdfs:label "Tribunale_che_ha_emesso_la_sentenza"@IRI-based; 
+                                     rdfs:label "Tribunale_che_ha_emesso_la_sentenza"@iri-based; 
                                      rdfs:label "Tribunale che ha emesso la sentenza"@en; 
                                      rdfs:domain :RichiestaCertificato;
                                      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 40------------------------- 
+#  --------------------------- Property 39------------------------- 
 :Comune_Battesimo rdf:type owl:DatatypeProperty ;
                   rdfs:label "Comune_Battesimo"@IRI-based; 
                   rdfs:label "Comune_Battesimo"@iri-based; 
                   rdfs:label "Comune Battesimo"@en; 
                   rdfs:domain :Richiedente;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 41------------------------- 
+#  --------------------------- Property 40------------------------- 
 :Uso_Personale rdf:type owl:DatatypeProperty ;
                rdfs:label "Uso_Personale"@IRI-based; 
                rdfs:label "Uso_Personale"@iri-based; 
                rdfs:label "Uso Personale"@en; 
                rdfs:domain :Azienda;
                rdfs:range rdfs:Literal . 
-#  --------------------------- Property 42------------------------- 
+#  --------------------------- Property 41------------------------- 
 :Numero_registro_generale_della_sentenza rdf:type owl:DatatypeProperty ;
                                          rdfs:label "Numero_registro_generale_della_sentenza"@IRI-based; 
+                                         rdfs:label "Numero_registro_generale_della_sentenza"@iri-based; 
                                          rdfs:label "Numero registro generale della sentenza"@en; 
                                          rdfs:domain :RichiestaCertificato;
                                          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 43------------------------- 
+#  --------------------------- Property 42------------------------- 
 :Residenza_Ad_Anno rdf:type owl:DatatypeProperty ;
                    rdfs:label "Residenza_Ad_Anno"@IRI-based; 
                    rdfs:label "Residenza_Ad_Anno"@iri-based; 
                    rdfs:label "Residenza Ad Anno"@en; 
                    rdfs:domain :Residenza;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 44------------------------- 
+#  --------------------------- Property 43------------------------- 
 :Data_di_Nascita rdf:type owl:DatatypeProperty ;
                  rdfs:label "Data_di_Nascita"@IRI-based; 
                  rdfs:label "Data_di_Nascita"@iri-based; 
                  rdfs:label "Data di Nascita"@en; 
                  rdfs:domain :Richiedente;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 45------------------------- 
+#  --------------------------- Property 44------------------------- 
 :Sezione rdf:type owl:DatatypeProperty ;
          rdfs:label "Sezione"@IRI-based; 
+         rdfs:label "Sezione"@iri-based; 
          rdfs:label "Sezione"@en; 
          rdfs:domain :Immobile;
          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 46------------------------- 
+#  --------------------------- Property 45------------------------- 
 :Subalterno rdf:type owl:DatatypeProperty ;
             rdfs:label "Subalterno"@IRI-based; 
+            rdfs:label "Subalterno"@iri-based; 
             rdfs:label "Subalterno"@en; 
             rdfs:domain :Immobile;
             rdfs:range rdfs:Literal . 
-#  --------------------------- Property 47------------------------- 
+#  --------------------------- Property 46------------------------- 
 :Qualifica_Professionale rdf:type owl:DatatypeProperty ;
                          rdfs:label "Qualifica_Professionale"@IRI-based; 
                          rdfs:label "Qualifica_Professionale"@iri-based; 
                          rdfs:label "Qualifica Professionale"@en; 
                          rdfs:domain :Richiedente;
                          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 48------------------------- 
+#  --------------------------- Property 47------------------------- 
 :Luogo_Decesso_Defunto rdf:type owl:DatatypeProperty ;
                        rdfs:label "Luogo_Decesso_Defunto"@IRI-based; 
+                       rdfs:label "Luogo_Decesso_Defunto"@iri-based; 
                        rdfs:label "Luogo Decesso Defunto"@en; 
                        rdfs:domain :RichiestaCertificato;
                        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 49------------------------- 
+#  --------------------------- Property 48------------------------- 
 :Cittadinanza rdf:type owl:DatatypeProperty ;
               rdfs:label "Cittadinanza"@IRI-based; 
+              rdfs:label "Cittadinanza"@iri-based; 
               rdfs:label "Cittadinanza"@en; 
               rdfs:domain :Richiedente;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 50------------------------- 
+#  --------------------------- Property 49------------------------- 
 :PEC rdf:type owl:DatatypeProperty ;
      rdfs:label "PEC"@IRI-based; 
+     rdfs:label "PEC"@iri-based; 
      rdfs:label "PEC"@en; 
      rdfs:domain :Richiedente;
      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 51------------------------- 
+#  --------------------------- Property 50------------------------- 
 :Motivo_del_ricongiungimento_familiare rdf:type owl:DatatypeProperty ;
                                        rdfs:label "Motivo_del_ricongiungimento_familiare"@IRI-based; 
                                        rdfs:label "Motivo_del_ricongiungimento_familiare"@iri-based; 
                                        rdfs:label "Motivo del ricongiungimento familiare"@en; 
                                        rdfs:domain :RichiestaCertificato;
                                        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 52------------------------- 
+#  --------------------------- Property 51------------------------- 
 :Numero_Telaio_Veicolo rdf:type owl:DatatypeProperty ;
                        rdfs:label "Numero_Telaio_Veicolo"@IRI-based; 
+                       rdfs:label "Numero_Telaio_Veicolo"@iri-based; 
                        rdfs:label "Numero Telaio Veicolo"@en; 
                        rdfs:domain :RichiestaCertificato;
                        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 53------------------------- 
+#  --------------------------- Property 52------------------------- 
 :Uso_Gara_Applato rdf:type owl:DatatypeProperty ;
                   rdfs:label "Uso_Gara_Applato"@IRI-based; 
                   rdfs:label "Uso_Gara_Applato"@iri-based; 
                   rdfs:label "Uso Gara Applato"@en; 
                   rdfs:domain :Azienda;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 54------------------------- 
+#  --------------------------- Property 53------------------------- 
 :Disponibilità_di_Mezzi_Economici rdf:type owl:DatatypeProperty ;
                                   rdfs:label "Disponibilità_di_Mezzi_Economici"@IRI-based; 
                                   rdfs:label "Disponibilità_di_Mezzi_Economici"@iri-based; 
                                   rdfs:label "Disponibilità di Mezzi Economici"@en; 
                                   rdfs:domain :RichiestaCertificato;
                                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 55------------------------- 
+#  --------------------------- Property 54------------------------- 
 :Residenza_Da_Anno rdf:type owl:DatatypeProperty ;
                    rdfs:label "Residenza_Da_Anno"@IRI-based; 
                    rdfs:label "Residenza_Da_Anno"@iri-based; 
                    rdfs:label "Residenza Da Anno"@en; 
                    rdfs:domain :Residenza;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 56------------------------- 
+#  --------------------------- Property 55------------------------- 
 :Titolare_Ditta_individuale rdf:type owl:DatatypeProperty ;
                             rdfs:label "Titolare_Ditta_individuale"@IRI-based; 
                             rdfs:label "Titolare_Ditta_individuale"@iri-based; 
                             rdfs:label "Titolare Ditta individuale"@en; 
                             rdfs:domain :Azienda;
                             rdfs:range rdfs:Literal . 
-#  --------------------------- Property 57------------------------- 
+#  --------------------------- Property 56------------------------- 
 :Nome rdf:type owl:DatatypeProperty ;
       rdfs:label "Nome"@IRI-based; 
       rdfs:label "Nome"@iri-based; 
       rdfs:label "Nome"@en; 
       rdfs:domain :Richiedente;
       rdfs:range rdfs:Literal . 
-#  --------------------------- Property 58------------------------- 
+#  --------------------------- Property 57------------------------- 
 :Stato_di_Celebrazione_Matrimonio rdf:type owl:DatatypeProperty ;
                                   rdfs:label "Stato_di_Celebrazione_Matrimonio"@IRI-based; 
                                   rdfs:label "Stato_di_Celebrazione_Matrimonio"@iri-based; 
                                   rdfs:label "Stato di Celebrazione Matrimonio"@en; 
                                   rdfs:domain :RichiestaCertificato;
                                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 59------------------------- 
+#  --------------------------- Property 58------------------------- 
 :Targa_Veicolo rdf:type owl:DatatypeProperty ;
                rdfs:label "Targa_Veicolo"@IRI-based; 
+               rdfs:label "Targa_Veicolo"@iri-based; 
                rdfs:label "Targa Veicolo"@en; 
                rdfs:domain :RichiestaCertificato;
                rdfs:range rdfs:Literal . 
-#  --------------------------- Property 60------------------------- 
+#  --------------------------- Property 59------------------------- 
 :Sesso rdf:type owl:DatatypeProperty ;
        rdfs:label "Sesso"@IRI-based; 
        rdfs:label "Sesso"@iri-based; 
        rdfs:label "Sesso"@en; 
        rdfs:domain :Richiedente;
        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 61------------------------- 
+#  --------------------------- Property 60------------------------- 
 :Provincia_Nascita rdf:type owl:DatatypeProperty ;
                    rdfs:label "Provincia_Nascita"@IRI-based; 
                    rdfs:label "Provincia_Nascita"@iri-based; 
                    rdfs:label "Provincia Nascita"@en; 
                    rdfs:domain :Richiedente;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 62------------------------- 
+#  --------------------------- Property 61------------------------- 
 :Comune_di_Adozione rdf:type owl:DatatypeProperty ;
                     rdfs:label "Comune_di_Adozione"@IRI-based; 
                     rdfs:label "Comune_di_Adozione"@iri-based; 
                     rdfs:label "Comune di Adozione"@en; 
                     rdfs:domain :RichiestaCertificato;
                     rdfs:range rdfs:Literal . 
-#  --------------------------- Property 63------------------------- 
+#  --------------------------- Property 62------------------------- 
 :Reddito_Complessivo rdf:type owl:DatatypeProperty ;
                      rdfs:label "Reddito_Complessivo"@IRI-based; 
                      rdfs:label "Reddito_Complessivo"@iri-based; 
                      rdfs:label "Reddito Complessivo"@en; 
                      rdfs:domain :RichiestaCertificato;
                      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 64------------------------- 
+#  --------------------------- Property 63------------------------- 
 :Luogo_Richiesta rdf:type owl:DatatypeProperty ;
                  rdfs:label "Luogo_Richiesta"@IRI-based; 
                  rdfs:label "Luogo_Richiesta"@iri-based; 
                  rdfs:label "Luogo Richiesta"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range rdfs:Literal . 
+#  --------------------------- Property 64------------------------- 
+:Inoltrato_A rdf:type owl:ObjectProperty ;
+             rdfs:label "Inoltrato_A"@IRI-based; 
+             rdfs:label "Inoltrato A "@en; 
+             rdfs:domain :RichiestaCertificato;
+             rdfs:range :E . 
 #  --------------------------- Property 65------------------------- 
 :Multilingue rdf:type owl:DatatypeProperty ;
              rdfs:label "Multilingue"@IRI-based; 
@@ -464,29 +486,29 @@
              rdfs:domain :RichiestaCertificato;
              rdfs:range rdfs:Literal . 
 #  --------------------------- Property 66------------------------- 
+:indirizzo_Ente rdf:type owl:ObjectProperty ;
+                rdfs:label "indirizzo_Ente"@IRI-based; 
+                rdfs:label "Indirizzo Ente"@en; 
+                rdfs:domain :E;
+                rdfs:range :Indirizzo . 
+#  --------------------------- Property 67------------------------- 
 :Uso_Cessione_Azienda rdf:type owl:DatatypeProperty ;
                       rdfs:label "Uso_Cessione_Azienda"@IRI-based; 
                       rdfs:label "Uso_Cessione_Azienda"@iri-based; 
                       rdfs:label "Uso Cessione Azienda"@en; 
                       rdfs:domain :Azienda;
                       rdfs:range rdfs:Literal . 
-#  --------------------------- Property 67------------------------- 
+#  --------------------------- Property 68------------------------- 
 :Data_del_matrimonio rdf:type owl:DatatypeProperty ;
                      rdfs:label "Data_del_matrimonio"@IRI-based; 
                      rdfs:label "Data_del_matrimonio"@iri-based; 
                      rdfs:label "Data del matrimonio"@en; 
                      rdfs:domain :RichiestaCertificato;
                      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 68------------------------- 
-:IndirizzoPA rdf:type owl:ObjectProperty ;
-             rdfs:label "IndirizzoPA"@IRI-based; 
-             rdfs:label "IndirizzoPA"@iri-based; 
-             rdfs:label "Indirizzo PA"@en; 
-             rdfs:domain :Publica_Amministrazione;
-             rdfs:range :Indirizzo . 
 #  --------------------------- Property 69------------------------- 
 :Codice_Fiscale_Defunto rdf:type owl:DatatypeProperty ;
                         rdfs:label "Codice_Fiscale_Defunto"@IRI-based; 
+                        rdfs:label "Codice_Fiscale_Defunto"@iri-based; 
                         rdfs:label "Codice Fiscale Defunto"@en; 
                         rdfs:domain :RichiestaCertificato;
                         rdfs:range rdfs:Literal . 
@@ -514,6 +536,7 @@
 #  --------------------------- Property 73------------------------- 
 :Stato_Civile_Defunto rdf:type owl:DatatypeProperty ;
                       rdfs:label "Stato_Civile_Defunto"@IRI-based; 
+                      rdfs:label "Stato_Civile_Defunto"@iri-based; 
                       rdfs:label "Stato Civile Defunto"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
@@ -555,6 +578,7 @@
 #  --------------------------- Property 79------------------------- 
 :Tipo_di_Arma rdf:type owl:DatatypeProperty ;
               rdfs:label "Tipo_di_Arma"@IRI-based; 
+              rdfs:label "Tipo_di_Arma"@iri-based; 
               rdfs:label "Tipo di Arma"@en; 
               rdfs:domain :RichiestaCertificato;
               rdfs:range rdfs:Literal . 
@@ -568,6 +592,7 @@
 #  --------------------------- Property 81------------------------- 
 :Data_Nascita_Defunto rdf:type owl:DatatypeProperty ;
                       rdfs:label "Data_Nascita_Defunto"@IRI-based; 
+                      rdfs:label "Data_Nascita_Defunto"@iri-based; 
                       rdfs:label "Data Nascita Defunto"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
@@ -581,6 +606,7 @@
 #  --------------------------- Property 83------------------------- 
 :Cittadinanza_Defunto rdf:type owl:DatatypeProperty ;
                       rdfs:label "Cittadinanza_Defunto"@IRI-based; 
+                      rdfs:label "Cittadinanza_Defunto"@iri-based; 
                       rdfs:label "Cittadinanza Defunto"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
@@ -629,24 +655,28 @@
 #  --------------------------- Property 90------------------------- 
 :Particella rdf:type owl:DatatypeProperty ;
             rdfs:label "Particella"@IRI-based; 
+            rdfs:label "Particella"@iri-based; 
             rdfs:label "Particella"@en; 
             rdfs:domain :Immobile;
             rdfs:range rdfs:Literal . 
 #  --------------------------- Property 91------------------------- 
 :Tipologia_Invalidità rdf:type owl:DatatypeProperty ;
                       rdfs:label "Tipologia_Invalidità"@IRI-based; 
+                      rdfs:label "Tipologia_Invalidità"@iri-based; 
                       rdfs:label "Tipologia Invalidità"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
 #  --------------------------- Property 92------------------------- 
 :Frazione rdf:type owl:DatatypeProperty ;
           rdfs:label "Frazione"@IRI-based; 
+          rdfs:label "Frazione"@iri-based; 
           rdfs:label "Frazione"@en; 
           rdfs:domain :Immobile;
           rdfs:range rdfs:Literal . 
 #  --------------------------- Property 93------------------------- 
 :Data_di_pronuncia_del_Divorzio rdf:type owl:DatatypeProperty ;
                                 rdfs:label "Data_di_pronuncia_del_Divorzio"@IRI-based; 
+                                rdfs:label "Data_di_pronuncia_del_Divorzio"@iri-based; 
                                 rdfs:label "Data di pronuncia del Divorzio"@en; 
                                 rdfs:domain :RichiestaCertificato;
                                 rdfs:range rdfs:Literal . 
@@ -660,6 +690,7 @@
 #  --------------------------- Property 95------------------------- 
 :Cognome_Defunto rdf:type owl:DatatypeProperty ;
                  rdfs:label "Cognome_Defunto"@IRI-based; 
+                 rdfs:label "Cognome_Defunto"@iri-based; 
                  rdfs:label "Cognome Defunto"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range rdfs:Literal . 
@@ -671,291 +702,299 @@
                         rdfs:domain :RichiestaCertificato;
                         rdfs:range rdfs:Literal . 
 #  --------------------------- Property 97------------------------- 
+:rilasciato rdf:type owl:ObjectProperty ;
+            rdfs:label "rilasciato"@IRI-based; 
+            rdfs:label "rilasciato"@en; 
+            rdfs:domain :Certificato;
+            rdfs:range :E . 
+#  --------------------------- Property 98------------------------- 
 :Email_PA rdf:type owl:DatatypeProperty ;
           rdfs:label "Email_PA"@IRI-based; 
           rdfs:label "Email_PA"@iri-based; 
           rdfs:label "Email PA"@en; 
-          rdfs:domain :Publica_Amministrazione;
+          rdfs:domain :E;
           rdfs:range rdfs:Literal . 
-#  --------------------------- Property 98------------------------- 
+#  --------------------------- Property 99------------------------- 
 :Regione rdf:type owl:DatatypeProperty ;
          rdfs:label "Regione"@IRI-based; 
          rdfs:label "Regione"@iri-based; 
          rdfs:label "Regione"@en; 
          rdfs:domain :Indirizzo;
          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 99------------------------- 
+#  --------------------------- Property 100------------------------- 
 :Comune_di_Nascita rdf:type owl:DatatypeProperty ;
                    rdfs:label "Comune_di_Nascita"@IRI-based; 
                    rdfs:label "Comune_di_Nascita"@iri-based; 
                    rdfs:label "Comune di Nascita"@en; 
                    rdfs:domain :Richiedente;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 100------------------------- 
+#  --------------------------- Property 101------------------------- 
 :Data_Decesso rdf:type owl:DatatypeProperty ;
               rdfs:label "Data_Decesso"@IRI-based; 
+              rdfs:label "Data_Decesso"@iri-based; 
               rdfs:label "Data Decesso"@en; 
               rdfs:domain :Richiedente;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 101------------------------- 
+#  --------------------------- Property 102------------------------- 
 :Numero_Copie rdf:type owl:DatatypeProperty ;
               rdfs:label "Numero_Copie"@IRI-based; 
               rdfs:label "Numero_Copie"@iri-based; 
               rdfs:label "Numero Copie"@en; 
               rdfs:domain :RichiestaCertificato;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 102------------------------- 
+#  --------------------------- Property 103------------------------- 
 :Numero_Richiedenti rdf:type owl:DatatypeProperty ;
                     rdfs:label "Numero_Richiedenti"@IRI-based; 
                     rdfs:label "Numero_Richiedenti"@iri-based; 
                     rdfs:label "Numero Richiedenti"@en; 
                     rdfs:domain :Gruppo_Richiedenti;
                     rdfs:range rdfs:Literal . 
-#  --------------------------- Property 103------------------------- 
+#  --------------------------- Property 104------------------------- 
+:lavora_Per rdf:type owl:ObjectProperty ;
+            rdfs:label "lavora_Per"@IRI-based; 
+            rdfs:label "lavora_Per"@iri-based; 
+            rdfs:label "lavora Per"@en; 
+            rdfs:domain :Richiedente;
+            rdfs:range :Azienda . 
+#  --------------------------- Property 105------------------------- 
 :Codice_Fiscale_Azienda rdf:type owl:DatatypeProperty ;
                         rdfs:label "Codice_Fiscale_Azienda"@IRI-based; 
                         rdfs:label "Codice_Fiscale_Azienda"@iri-based; 
                         rdfs:label "Codice Fiscale Azienda"@en; 
                         rdfs:domain :Azienda;
                         rdfs:range rdfs:Literal . 
-#  --------------------------- Property 104------------------------- 
+#  --------------------------- Property 106------------------------- 
 :Motivo_Espatrio rdf:type owl:DatatypeProperty ;
                  rdfs:label "Motivo_Espatrio"@IRI-based; 
+                 rdfs:label "Motivo_Espatrio"@iri-based; 
                  rdfs:label "Motivo Espatrio"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 105------------------------- 
+#  --------------------------- Property 107------------------------- 
 :MInorenne rdf:type owl:DatatypeProperty ;
            rdfs:label "MInorenne"@IRI-based; 
            rdfs:label "MInorenne"@iri-based; 
            rdfs:label "MInorenne"@en; 
            rdfs:domain :Certificato;
            rdfs:range rdfs:Literal . 
-#  --------------------------- Property 106------------------------- 
+#  --------------------------- Property 108------------------------- 
 :Titolo_di_Studio rdf:type owl:DatatypeProperty ;
                   rdfs:label "Titolo_di_Studio"@IRI-based; 
                   rdfs:label "Titolo_di_Studio"@iri-based; 
                   rdfs:label "Titolo di Studio"@en; 
                   rdfs:domain :Richiedente;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 107------------------------- 
+#  --------------------------- Property 109------------------------- 
 :richiedenteAppartiene rdf:type owl:ObjectProperty ;
                        rdfs:label "richiedenteAppartiene"@IRI-based; 
                        rdfs:label "richiedenteAppartiene"@iri-based; 
                        rdfs:label "richiedente Appartiene"@en; 
                        rdfs:domain :Richiedente;
                        rdfs:range :Gruppo_Richiedenti . 
-#  --------------------------- Property 108------------------------- 
+#  --------------------------- Property 110------------------------- 
 :Nome_Defunto rdf:type owl:DatatypeProperty ;
               rdfs:label "Nome_Defunto"@IRI-based; 
+              rdfs:label "Nome_Defunto"@iri-based; 
               rdfs:label "Nome Defunto"@en; 
               rdfs:domain :RichiestaCertificato;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 109------------------------- 
+#  --------------------------- Property 111------------------------- 
 :Stato_Civile rdf:type owl:DatatypeProperty ;
               rdfs:label "Stato_Civile"@IRI-based; 
               rdfs:label "Stato_Civile"@iri-based; 
               rdfs:label "Stato Civile"@en; 
               rdfs:domain :Richiedente;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 110------------------------- 
+#  --------------------------- Property 112------------------------- 
 :Provincia rdf:type owl:DatatypeProperty ;
            rdfs:label "Provincia"@IRI-based; 
            rdfs:label "Provincia"@iri-based; 
            rdfs:label "Provincia"@en; 
            rdfs:domain :Indirizzo;
            rdfs:range rdfs:Literal . 
-#  --------------------------- Property 111------------------------- 
+#  --------------------------- Property 113------------------------- 
 :Anno_di_Imposta rdf:type owl:DatatypeProperty ;
                  rdfs:label "Anno_di_Imposta"@IRI-based; 
                  rdfs:label "Anno_di_Imposta"@iri-based; 
                  rdfs:label "Anno di Imposta"@en; 
                  rdfs:domain :RichiestaCertificato;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 112------------------------- 
+#  --------------------------- Property 114------------------------- 
 :Luogo_di_Celebrazione_Matrimonio rdf:type owl:DatatypeProperty ;
                                   rdfs:label "Luogo_di_Celebrazione_Matrimonio"@IRI-based; 
                                   rdfs:label "Luogo_di_Celebrazione_Matrimonio"@iri-based; 
                                   rdfs:label "Luogo di Celebrazione Matrimonio"@en; 
                                   rdfs:domain :RichiestaCertificato;
                                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 113------------------------- 
+#  --------------------------- Property 115------------------------- 
 :Società_Rappresentata rdf:type owl:DatatypeProperty ;
                        rdfs:label "Società_Rappresentata"@IRI-based; 
                        rdfs:label "Società_Rappresentata"@iri-based; 
                        rdfs:label "Società Rappresentata"@en; 
                        rdfs:domain :Azienda;
                        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 114------------------------- 
+#  --------------------------- Property 116------------------------- 
 :Situazione_Occupazionale rdf:type owl:DatatypeProperty ;
                           rdfs:label "Situazione_Occupazionale"@IRI-based; 
                           rdfs:label "Situazione_Occupazionale"@iri-based; 
                           rdfs:label "Situazione Occupazionale"@en; 
                           rdfs:domain :Richiedente;
                           rdfs:range rdfs:Literal . 
-#  --------------------------- Property 115------------------------- 
+#  --------------------------- Property 117------------------------- 
 :Intestazione_dei_Beni_Defunto rdf:type owl:DatatypeProperty ;
                                rdfs:label "Intestazione_dei_Beni_Defunto"@IRI-based; 
+                               rdfs:label "Intestazione_dei_Beni_Defunto"@iri-based; 
                                rdfs:label "Intestazione dei Beni Defunto"@en; 
                                rdfs:domain :RichiestaCertificato;
                                rdfs:range rdfs:Literal . 
-#  --------------------------- Property 116------------------------- 
+#  --------------------------- Property 118------------------------- 
 :Via rdf:type owl:DatatypeProperty ;
      rdfs:label "Via"@IRI-based; 
      rdfs:label "Via"@iri-based; 
      rdfs:label "Via"@en; 
      rdfs:domain :Indirizzo;
      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 117------------------------- 
+#  --------------------------- Property 119------------------------- 
 :relativa_A rdf:type owl:ObjectProperty ;
             rdfs:label "relativa_A"@IRI-based; 
             rdfs:label "relativa_A"@iri-based; 
             rdfs:label "relativa A"@en; 
             rdfs:domain :RichiestaCertificato;
             rdfs:range :Richiedente . 
-#  --------------------------- Property 118------------------------- 
+#  --------------------------- Property 120------------------------- 
 :In_Bollo rdf:type owl:DatatypeProperty ;
           rdfs:label "In_Bollo"@IRI-based; 
           rdfs:label "In_Bollo"@iri-based; 
           rdfs:label "In Bollo"@en; 
           rdfs:domain :Richiedente;
           rdfs:range rdfs:Literal . 
-#  --------------------------- Property 119------------------------- 
+#  --------------------------- Property 121------------------------- 
 :Tempi_di_Evasione rdf:type owl:DatatypeProperty ;
                    rdfs:label "Tempi_di_Evasione"@IRI-based; 
                    rdfs:label "Tempi_di_Evasione"@iri-based; 
                    rdfs:label "Tempi di Evasione"@en; 
                    rdfs:domain :Richiedente;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 120------------------------- 
+#  --------------------------- Property 122------------------------- 
 :Nome_PA rdf:type owl:DatatypeProperty ;
          rdfs:label "Nome_PA"@IRI-based; 
          rdfs:label "Nome_PA"@iri-based; 
          rdfs:label "Nome PA"@en; 
-         rdfs:domain :Publica_Amministrazione;
+         rdfs:domain :E;
          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 121------------------------- 
+#  --------------------------- Property 123------------------------- 
 :Annualita rdf:type owl:DatatypeProperty ;
            rdfs:label "Annualita"@IRI-based; 
            rdfs:label "Annualita"@iri-based; 
            rdfs:label "Annualita"@en; 
            rdfs:domain :RichiestaCertificato;
            rdfs:range rdfs:Literal . 
-#  --------------------------- Property 122------------------------- 
+#  --------------------------- Property 124------------------------- 
 :Motivo_Richiesta rdf:type owl:DatatypeProperty ;
                   rdfs:label "Motivo_Richiesta"@IRI-based; 
                   rdfs:label "Motivo_Richiesta"@iri-based; 
                   rdfs:label "Motivo Richiesta"@en; 
                   rdfs:domain :RichiestaCertificato;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 123------------------------- 
+#  --------------------------- Property 125------------------------- 
 :Comune_Immobile rdf:type owl:DatatypeProperty ;
                  rdfs:label "Comune_Immobile"@IRI-based; 
+                 rdfs:label "Comune_Immobile"@iri-based; 
                  rdfs:label "Comune Immobile"@en; 
                  rdfs:domain :Immobile;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 124------------------------- 
+#  --------------------------- Property 126------------------------- 
 :Data_riconoscimento_Invalidità rdf:type owl:DatatypeProperty ;
                                 rdfs:label "Data_riconoscimento_Invalidità"@IRI-based; 
+                                rdfs:label "Data_riconoscimento_Invalidità"@iri-based; 
                                 rdfs:label "Data riconoscimento Invalidità"@en; 
                                 rdfs:domain :RichiestaCertificato;
                                 rdfs:range rdfs:Literal . 
-#  --------------------------- Property 125------------------------- 
+#  --------------------------- Property 127------------------------- 
 :fData_Matrimonio rdf:type owl:DatatypeProperty ;
                   rdfs:label "fData_Matrimonio"@IRI-based; 
                   rdfs:label "fData_Matrimonio"@iri-based; 
                   rdfs:label "Data Matrimonio"@en; 
                   rdfs:domain :Richiedente;
                   rdfs:range rdfs:Literal . 
-#  --------------------------- Property 126------------------------- 
+#  --------------------------- Property 128------------------------- 
 :Tipo_Reddito rdf:type owl:DatatypeProperty ;
               rdfs:label "Tipo_Reddito"@IRI-based; 
               rdfs:label "Tipo_Reddito"@iri-based; 
               rdfs:label "Tipo Reddito"@en; 
               rdfs:domain :RichiestaCertificato;
               rdfs:range rdfs:Literal . 
-#  --------------------------- Property 127------------------------- 
+#  --------------------------- Property 129------------------------- 
 :Ordine_Collegio_di_Appartenenza rdf:type owl:DatatypeProperty ;
                                  rdfs:label "Ordine_Collegio_di_Appartenenza"@IRI-based; 
                                  rdfs:label "Ordine_Collegio_di_Appartenenza"@iri-based; 
                                  rdfs:label "Ordine Collegio di Appartenenza"@en; 
                                  rdfs:domain :Richiedente;
                                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 128------------------------- 
+#  --------------------------- Property 130------------------------- 
 :Nome_Certificato_Richiesto rdf:type owl:DatatypeProperty ;
                             rdfs:label "Nome_Certificato_Richiesto"@IRI-based; 
                             rdfs:label "Nome_Certificato_Richiesto"@iri-based; 
                             rdfs:label "Nome Certificato Richiesto"@en; 
                             rdfs:domain :RichiestaCertificato;
                             rdfs:range rdfs:Literal . 
-#  --------------------------- Property 129------------------------- 
+#  --------------------------- Property 131------------------------- 
 :Modalità_Consegna rdf:type owl:DatatypeProperty ;
                    rdfs:label "Modalità_Consegna"@IRI-based; 
                    rdfs:label "Modalità_Consegna"@iri-based; 
                    rdfs:label "Modalità Consegna"@en; 
                    rdfs:domain :RichiestaCertificato;
                    rdfs:range rdfs:Literal . 
-#  --------------------------- Property 130------------------------- 
-:InoltrataAllaPA rdf:type owl:ObjectProperty ;
-                 rdfs:label "InoltrataAllaPA"@IRI-based; 
-                 rdfs:label "InoltrataAllaPA"@iri-based; 
-                 rdfs:label "Inoltrata Alla PA"@en; 
-                 rdfs:domain :RichiestaCertificato;
-                 rdfs:range :Publica_Amministrazione . 
-#  --------------------------- Property 131------------------------- 
+#  --------------------------- Property 132------------------------- 
 :Destinazione_Espatrio rdf:type owl:DatatypeProperty ;
                        rdfs:label "Destinazione_Espatrio"@IRI-based; 
+                       rdfs:label "Destinazione_Espatrio"@iri-based; 
                        rdfs:label "Destinazione Espatrio"@en; 
                        rdfs:domain :RichiestaCertificato;
                        rdfs:range rdfs:Literal . 
-#  --------------------------- Property 132------------------------- 
+#  --------------------------- Property 133------------------------- 
 :Forma_Giuridica rdf:type owl:DatatypeProperty ;
                  rdfs:label "Forma_Giuridica"@IRI-based; 
                  rdfs:label "Forma_Giuridica"@iri-based; 
                  rdfs:label "Forma Giuridica"@en; 
                  rdfs:domain :Azienda;
                  rdfs:range rdfs:Literal . 
-#  --------------------------- Property 133------------------------- 
+#  --------------------------- Property 134------------------------- 
 :Provincia_Battesimo rdf:type owl:DatatypeProperty ;
                      rdfs:label "Provincia_Battesimo"@IRI-based; 
                      rdfs:label "Provincia_Battesimo"@iri-based; 
                      rdfs:label "Provincia Battesimo"@en; 
                      rdfs:domain :Richiedente;
                      rdfs:range rdfs:Literal . 
-#  --------------------------- Property 134------------------------- 
+#  --------------------------- Property 135------------------------- 
 :Apostilla rdf:type owl:DatatypeProperty ;
            rdfs:label "Apostilla"@IRI-based; 
            rdfs:label "Apostilla"@iri-based; 
            rdfs:label "Apostilla"@en; 
            rdfs:domain :RichiestaCertificato;
            rdfs:range rdfs:Literal . 
-#  --------------------------- Property 135------------------------- 
+#  --------------------------- Property 136------------------------- 
 :Assicurazione_Sanitaria rdf:type owl:DatatypeProperty ;
                          rdfs:label "Assicurazione_Sanitaria"@IRI-based; 
                          rdfs:label "Assicurazione_Sanitaria"@iri-based; 
                          rdfs:label "Assicurazione Sanitaria"@en; 
                          rdfs:domain :RichiestaCertificato;
                          rdfs:range rdfs:Literal . 
-#  --------------------------- Property 136------------------------- 
+#  --------------------------- Property 137------------------------- 
 :Note rdf:type owl:DatatypeProperty ;
       rdfs:label "Note"@IRI-based; 
       rdfs:label "Note"@iri-based; 
       rdfs:label "Note"@en; 
       rdfs:domain :RichiestaCertificato;
       rdfs:range rdfs:Literal . 
-#  --------------------------- Property 137------------------------- 
+#  --------------------------- Property 138------------------------- 
 :Stato_Nascita_Figlio rdf:type owl:DatatypeProperty ;
                       rdfs:label "Stato_Nascita_Figlio"@IRI-based; 
                       rdfs:label "Stato_Nascita_Figlio"@iri-based; 
                       rdfs:label "Stato Nascita Figlio"@en; 
                       rdfs:domain :RichiestaCertificato;
                       rdfs:range rdfs:Literal . 
-#  --------------------------- Property 138------------------------- 
-:lavora_Per rdf:type owl:ObjectProperty ;
-            rdfs:label "lavora Per"@en; 
-            rdfs:domain :Richiedente;
-            rdfs:range :Azienda . 
-###  Class Definitions (Number of Classes) 16 ###
+###  Class Definitions (Number of Classes) 17 ###
 #  --------------------------- Class  0------------------------- 
 :Richiedente rdf:type owl:Class; 
              rdfs:subClassOf [ rdf:type owl:Restriction ; 
@@ -980,6 +1019,7 @@
 #  --------------------------- Class  1------------------------- 
 :Immobile rdf:type owl:Class; 
           rdfs:label "Immobile"@IRI-based; 
+          rdfs:label "Immobile"@iri-based; 
           rdfs:label "Immobile"@en . 
 #  --------------------------- Class  2------------------------- 
 :Certificato_Per_ExtraCommunitario rdf:type owl:Class; 
@@ -1017,6 +1057,11 @@
              rdfs:label "Certificato"@iri-based; 
              rdfs:label "Certificato"@en . 
 #  --------------------------- Class  7------------------------- 
+:Ente_Privato rdf:type owl:Class; 
+              rdfs:subClassOf :E ;
+              rdfs:label "Ente_Privato"@IRI-based; 
+              rdfs:label "Ente Privato"@en . 
+#  --------------------------- Class  8------------------------- 
 :RichiestaCertificato rdf:type owl:Class; 
                       rdfs:subClassOf [ rdf:type owl:Restriction ; 
                                         owl:onProperty :necessitaCertificatiMandatori;
@@ -1029,54 +1074,53 @@
                       rdfs:label "RichiestaCertificato"@IRI-based; 
                       rdfs:label "RichiestaCertificato"@iri-based; 
                       rdfs:label "Richiesta Certificato"@en . 
-#  --------------------------- Class  8------------------------- 
+#  --------------------------- Class  9------------------------- 
 :Domicilio rdf:type owl:Class; 
            rdfs:subClassOf :Indirizzo ;
            rdfs:label "Domicilio"@IRI-based; 
            rdfs:label "Domicilio"@iri-based; 
            rdfs:label "Domicilio"@en . 
-#  --------------------------- Class  9------------------------- 
-:Indirizzo_PA rdf:type owl:Class; 
-              rdfs:subClassOf :Indirizzo ;
-              rdfs:label "Indirizzo_PA"@IRI-based; 
-              rdfs:label "Indirizzo_PA"@iri-based; 
-              rdfs:label "Indirizzo PA"@en . 
 #  --------------------------- Class  10------------------------- 
+:Indirizzo_Ente rdf:type owl:Class; 
+                rdfs:subClassOf :Indirizzo ;
+                rdfs:label "Indirizzo Ente"@en . 
+#  --------------------------- Class  11------------------------- 
 :Indirizzo rdf:type owl:Class; 
            rdfs:label "Indirizzo"@IRI-based; 
            rdfs:label "Indirizzo"@iri-based; 
            rdfs:label "Indirizzo"@en . 
-#  --------------------------- Class  11------------------------- 
+#  --------------------------- Class  12------------------------- 
+:E rdf:type owl:Class; 
+   rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                     owl:onProperty :gestisce;
+                     owl:someValuesFrom :RichiestaCertificato
+                   ];
+   rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                     owl:onProperty :rilascia;
+                     owl:someValuesFrom :Certificato
+                   ];
+   rdfs:label "E"@IRI-based; 
+   rdfs:label "Ente"@en . 
+#  --------------------------- Class  13------------------------- 
+:Pubblica_Ammministrazione rdf:type owl:Class; 
+                           rdfs:subClassOf :E ;
+                           rdfs:label "Pubblica_Ammministrazione"@IRI-based; 
+                           rdfs:label "Pubblica Ammministrazione"@en . 
+#  --------------------------- Class  14------------------------- 
 :Indirizzo_Azienda rdf:type owl:Class; 
                    rdfs:subClassOf :Indirizzo ;
                    rdfs:label "Indirizzo_Azienda"@IRI-based; 
                    rdfs:label "Indirizzo_Azienda"@iri-based; 
                    rdfs:label "Indirizzo Azienda"@en . 
-#  --------------------------- Class  12------------------------- 
-:Publica_Amministrazione rdf:type owl:Class; 
-                         rdfs:subClassOf [ rdf:type owl:Restriction ; 
-                                           owl:onProperty :rilascia;
-                                           owl:someValuesFrom :Certificato
-                                         ];
-                         rdfs:subClassOf [ rdf:type owl:Restriction ; 
-                                           owl:onProperty :PA_Gestisce;
-                                           owl:someValuesFrom :RichiestaCertificato
-                                         ];
-                         rdfs:label "Publica_Amministrazione"@IRI-based; 
-                         rdfs:label "Publica_Amministrazione"@iri-based; 
-                         rdfs:label "Publica Amministrazione"@en . 
-#  --------------------------- Class  13------------------------- 
+#  --------------------------- Class  15------------------------- 
 :Certificato_Per_Minorenne rdf:type owl:Class; 
                            rdfs:subClassOf :Certificato ;
                            rdfs:label "Certificato_Per_Minorenne"@IRI-based; 
                            rdfs:label "Certificato_Per_Minorenne"@iri-based; 
                            rdfs:label "Certificato Per Minorenne"@en . 
-#  --------------------------- Class  14------------------------- 
+#  --------------------------- Class  16------------------------- 
 :Indirizzo_Immobile rdf:type owl:Class; 
                     rdfs:subClassOf :Indirizzo ;
                     rdfs:label "Indirizzo_Immobile"@IRI-based; 
+                    rdfs:label "Indirizzo_Immobile"@iri-based; 
                     rdfs:label "Indirizzo Immobile"@en . 
-#  --------------------------- Class  15------------------------- 
-:Non_Publica_Amministrazione rdf:type owl:Class; 
-                             rdfs:subClassOf :Publica_Amministrazione ;
-                             rdfs:label "Non Publica Amministrazione"@en . 
