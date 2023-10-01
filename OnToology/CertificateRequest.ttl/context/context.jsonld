@@ -16,6 +16,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Telaio_Veicolo",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Data_Conseguimento_Titolo" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Conseguimento_Titolo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Nome" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -163,6 +167,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza_Da_Anno",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Ente_Erogatore" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Ente_Erogatore",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Numero_di_Sentenza_di_Adozione" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_di_Sentenza_di_Adozione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -179,12 +187,32 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_di_familiare",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Tipologia_Corso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Corso",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Eta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Eta",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Classe_Frequentata" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Classe_Frequentata",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tipologia_Laurea" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Laurea",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Grado_Parentela" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Grado_Parentela",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Sede_Legale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Sede_Legale",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Concorso_Del" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Del",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Situazione_Occupazionale" : {
@@ -225,6 +253,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Provincia",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Indirizzo_Istituto_Scolastico_o_Università" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Istituto_Scolastico_o_Università",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Luogo_Nascita" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_Nascita",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -233,8 +265,16 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/indirizzoRichiedente",
       "@type" : "@id"
     },
+    "Paese_Di_Conseguimento_Titolo_Studio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Paese_Di_Conseguimento_Titolo_Studio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Nome_Certificato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Certificato",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Anno_scolastico_di_riferimento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_scolastico_di_riferimento",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Destinazione_Espatrio" : {
@@ -284,8 +324,16 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome_Defunto",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Nome_Corso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Corso",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Richiedente" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+    },
+    "Indirizzo_di_Laurea" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_di_Laurea",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Data_di_Nascita" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_di_Nascita",
@@ -298,16 +346,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Uso_Cessione_Azienda",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "rilasciato" : {
-      "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato",
-      "@type" : "@id"
-    },
     "Telefono" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Telefono",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Corso_Dottorato_di_Ricerca" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_Dottorato_di_Ricerca",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Luogo_di_Destinazione_in_Itallia" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_di_Destinazione_in_Itallia",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Copie_aggiuntive" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Copie_aggiuntive",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Foglio" : {
@@ -318,12 +370,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Codice_Meccanografico" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Meccanografico",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Luogo_di_Celebrazione_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Luogo_di_Celebrazione_Matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Motivo_Richiesta" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_Richiesta",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Lingua_di_Competenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Lingua_di_Competenza",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Luogo_Decesso" : {
@@ -341,12 +401,20 @@
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator"
     },
+    "Data_Inizio" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Inizio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Tipo_Documento" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Documento",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Paese_di_Nascita" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Paese_di_Nascita",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Concorso_Ambito_Disciplinare" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Ambito_Disciplinare",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "indirizzoImmobile" : {
@@ -371,6 +439,10 @@
     "E" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
     },
+    "rilasciato_Da" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato_Da",
+      "@type" : "@id"
+    },
     "Subalterno" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Subalterno",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -393,12 +465,20 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tribunale_che_ha_emesso_la_sentenza",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Esperienza_Lavorativa" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Esperienza_Lavorativa",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Forma_Giuridica" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Forma_Giuridica",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Domicilio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Domicilio"
+    },
+    "Anno_Conseguimento_Diploma_di_Maturità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_Conseguimento_Diploma_di_Maturità",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Residenza_Ad_Anno" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza_Ad_Anno",
@@ -418,6 +498,10 @@
     },
     "Stato_Nascita_Figlio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_Nascita_Figlio",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Sintesi_CV" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Sintesi_CV",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Motivo_del_Viaggio" : {
@@ -485,6 +569,10 @@
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
+    "Classe_di_Concorso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Classe_di_Concorso",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Data_rilascio_Documento" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_rilascio_Documento",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -496,17 +584,37 @@
     "Residenza" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Residenza"
     },
+    "Concorso_Abilitazione_Insegnamento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Abilitazione_Insegnamento",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Titolare_Ditta_individuale" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolare_Ditta_individuale",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Corso_Scuola_Specializzazione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_Scuola_Specializzazione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Titolo_di_Studio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolo_di_Studio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Vaccinazioni_Obbligatorie_In_Regola" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Vaccinazioni_Obbligatorie_In_Regola",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Tipo_Diploma_Conseguito" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Diploma_Conseguito",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "titolare_Di" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/titolare_Di",
       "@type" : "@id"
+    },
+    "Lingua_Straniera_Studiata" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Lingua_Straniera_Studiata",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "relativa_A" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/relativa_A",
@@ -515,6 +623,10 @@
     "relativaAGruppo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/relativaAGruppo",
       "@type" : "@id"
+    },
+    "Livelli_di_Competenza_Previsti" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Livelli_di_Competenza_Previsti",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Plurilingua" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Plurilingua",
@@ -527,6 +639,10 @@
     "necessitaCertificatiMandatori" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/necessitaCertificatiMandatori",
       "@type" : "@id"
+    },
+    "Livello_di_Competenza_Raggiunto" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Livello_di_Competenza_Raggiunto",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Comune_di_Celebrazione_Matrimonio" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Comune_di_Celebrazione_Matrimonio",
@@ -546,6 +662,10 @@
     },
     "Cap" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cap",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Livello_Istruzione" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Livello_Istruzione",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Comune_di_Nascita" : {
@@ -572,12 +692,28 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Stato_di_Celebrazione_Matrimonio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Titolo_Corso" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolo_Corso",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Data_Fine" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Fine",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Concorso_Indetto_Con" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Indetto_Con",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Tipo_Reddito" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Reddito",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Numero_Documento" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Documento",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Richiesta_Certificato_del_Diploma_di_Maturità" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiesta_Certificato_del_Diploma_di_Maturità",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Sesso" : {
@@ -600,6 +736,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Documento_Rilasciato_da",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Numero_Ore_Frequenza" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Ore_Frequenza",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Tempi_di_Evasione_Certificato" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Tempi_di_Evasione_Certificato",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -619,6 +759,10 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/lavora_Per",
       "@type" : "@id"
     },
+    "Modalità_di_consegna" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Modalità_di_consegna",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Disponibilità_di_Mezzi_Economici" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Disponibilità_di_Mezzi_Economici",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -627,8 +771,16 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Durata_Espatrio",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Nome_Istituto_Scolastico_o_Università" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Istituto_Scolastico_o_Università",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Nome_PA" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_PA",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Corso_di_Laurea" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_di_Laurea",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "description" : {
@@ -650,8 +802,16 @@
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Cognome",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "Giudizio_Diploma_Conseguito" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Giudizio_Diploma_Conseguito",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
     "Reddito_Complessivo" : {
       "@id" : "https://gcarau.github.io/RichiestaCertificati/Reddito_Complessivo",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Ordinamento" : {
+      "@id" : "https://gcarau.github.io/RichiestaCertificati/Ordinamento",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "Tipo_di_Arma" : {
