@@ -6,8 +6,8 @@ node [shape = rectangle, color="orange"]; "cro:Certificato" "cro:Residenza" "cro
 	"NULL" -> "cro:gruppoRichiedentiInclude" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:necessitaCertificatiMandatori" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:Immobile" [ label = "owl:someValuesFrom" ];
-	"NULL" -> "cro:possiede" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:indirizzoRichiedente" [ label = "owl:onProperty" ];
+	"NULL" -> "cro:possiede" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:indirizziRichiestaCertificato" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:richiestaSingoloRichiedente" [ label = "owl:onProperty" ];
 	"NULL" -> "cro:rilascia" [ label = "owl:onProperty" ];
