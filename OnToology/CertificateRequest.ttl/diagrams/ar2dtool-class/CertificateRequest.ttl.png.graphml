@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="155" parse.nodes="21" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="195" parse.nodes="21" parse.order="free">
       <node id="nid_NULL">
          <data key="d0">
             <y:ShapeNode>
@@ -398,7 +398,18 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cro:Durata_del_Soggiorno16" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipologia_Laurea16" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tipologia_Laurea</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Durata_del_Soggiorno17" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -409,7 +420,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cittadinanza17" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Corso_Scuola_Specializzazione18" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Corso_Scuola_Specializzazione</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Cittadinanza19" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -432,7 +454,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cro:Residenza_Ad_Anno18" source="nid_cro:Residenza" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Residenza_Ad_Anno20" source="nid_cro:Residenza" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -443,7 +465,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Targa_Veicolo19" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Targa_Veicolo21" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -454,12 +476,23 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_di_Celebrazione_Matrimonio20" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_di_Celebrazione_Matrimonio22" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Comune_di_Celebrazione_Matrimonio</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Tempi_di_Evasione23" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tempi_di_Evasione</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -477,7 +510,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cro:Inoltrato_A21" source="nid_cro:RichiestaCertificato" target="nid_cro:E">
+    <edge id="eid_cro:Inoltrato_A24" source="nid_cro:RichiestaCertificato" target="nid_cro:E">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -488,18 +521,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tempi_di_Evasione22" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Livello_Istruzione25" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tempi_di_Evasione</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Livello_Istruzione</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Uso_Cessione_Azienda23" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Uso_Cessione_Azienda26" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -510,7 +543,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cittadinanza_Defunto24" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Livelli_di_Competenza_Previsti27" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Livelli_di_Competenza_Previsti</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Cittadinanza_Defunto28" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -521,7 +565,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_di_pronuncia_del_Divorzio25" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_di_pronuncia_del_Divorzio29" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -532,7 +576,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Sede_Legale26" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Sede_Legale30" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -543,12 +587,23 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_Documento27" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Numero_Documento31" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Numero_Documento</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Codice_Meccanografico32" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Codice_Meccanografico</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -566,7 +621,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_cro:Nome_Gruppo28" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nome_Gruppo33" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -577,7 +632,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Note29" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Note34" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -588,7 +643,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Destinazione_di_Uso30" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Destinazione_di_Uso35" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -599,7 +654,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:PEC31" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:PEC36" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -610,18 +665,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Via32" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Via</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Nazionalità33" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nazionalità37" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -632,7 +676,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_Richiesta34" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Via38" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Via</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Data_Richiesta39" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -643,7 +698,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Chiesa_Battesimo35" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipologia_Corso40" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tipologia_Corso</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Chiesa_Battesimo41" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -654,7 +720,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Nome_Certificato_Richiesto36" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nome_Certificato_Richiesto42" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -665,7 +731,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Particella37" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_Conseguimento_Titolo43" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_Conseguimento_Titolo</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Modalità_di_consegna44" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Modalità_di_consegna</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Particella45" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -676,7 +764,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_registro_generale_della_sentenza38" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Numero_registro_generale_della_sentenza46" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -687,7 +775,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Reddito_Complessivo39" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_Inizio47" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_Inizio</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Copie_aggiuntive48" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Copie_aggiuntive</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Reddito_Complessivo49" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -698,7 +808,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Nome40" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Corso_Dottorato_di_Ricerca50" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Corso_Dottorato_di_Ricerca</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Classe_di_Concorso51" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Classe_di_Concorso</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Nome52" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -709,7 +841,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Codice_Fiscale_Defunto41" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Codice_Fiscale_Defunto53" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -720,7 +852,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Grado_Invalidità42" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Grado_Invalidità54" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -731,7 +863,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Stato_Civile_Defunto43" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Stato_Civile_Defunto55" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -742,7 +874,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:PeriodoStorico44" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:PeriodoStorico56" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -753,7 +885,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Sezione45" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Sezione57" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -764,7 +896,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Email_PA46" source="nid_cro:E" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Email_PA58" source="nid_cro:E" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -775,7 +907,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Ordine_Collegio_di_Appartenenza47" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Ordine_Collegio_di_Appartenenza59" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -786,7 +918,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Titolare_Ditta_individuale48" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Indirizzo_di_Laurea60" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Indirizzo_di_Laurea</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Nome_Istituto_Scolastico_o_Università61" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Nome_Istituto_Scolastico_o_Università</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Titolare_Ditta_individuale62" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -797,7 +951,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Durata_Espatrio49" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Durata_Espatrio63" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -808,18 +962,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Uso_Personale50" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Lingua_di_Competenza64" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Uso_Personale</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Lingua_di_Competenza</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cognome_Defunto51" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Cognome_Defunto65" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -830,7 +984,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Multilingue52" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Uso_Personale66" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Uso_Personale</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Multilingue67" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -841,7 +1006,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_Nascita53" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo_Nascita68" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -852,7 +1017,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Provincia_Matrimonio54" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Provincia_Matrimonio69" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -863,18 +1028,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo55" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Anno_Conseguimento_Diploma_di_Maturità70" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Anno_Conseguimento_Diploma_di_Maturità</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tempi_di_Evasione_Certificato56" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tempi_di_Evasione_Certificato71" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -885,18 +1050,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_Nascita_Defunto57" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo72" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Nascita_Defunto</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Provincia_Nascita58" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Provincia_Nascita73" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -907,7 +1072,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Residenza_Da_Anno59" source="nid_cro:Residenza" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo_Nascita_Defunto74" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Nascita_Defunto</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Residenza_Da_Anno75" source="nid_cro:Residenza" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -918,7 +1094,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Codice_Fiscale60" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Codice_Fiscale76" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -929,18 +1105,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_Decesso61" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Decesso</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Nome_Certificato62" source="nid_cro:Certificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nome_Certificato77" source="nid_cro:Certificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -951,7 +1116,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:In_Bollo63" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo_Decesso78" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Decesso</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:In_Bollo79" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -962,18 +1138,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:rilasciato64" source="nid_cro:Certificato" target="nid_cro:E">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:rilasciato</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Anno_di_Imposta65" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Anno_di_Imposta80" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -984,7 +1149,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_Battesimo66" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_Battesimo81" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -995,7 +1160,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_Decesso_Defunto67" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_Decesso_Defunto82" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1006,7 +1171,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tipo_Reddito68" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipo_Reddito83" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1017,7 +1182,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Annualita69" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Annualita84" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1028,7 +1193,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cognome70" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Esperienza_Lavorativa85" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Esperienza_Lavorativa</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Numero_Ore_Frequenza86" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Numero_Ore_Frequenza</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Cognome87" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1039,7 +1226,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Telefono71" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Telefono88" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1050,7 +1237,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Nazione72" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nazione89" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1061,7 +1248,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tipologia_Gruppo73" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipologia_Gruppo90" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1072,18 +1259,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_di_Destinazione_in_Itallia74" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_di_Destinazione_in_Itallia</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Tipo_Documento75" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipo_Documento91" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1094,7 +1270,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tipo_di_Arma76" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo_di_Destinazione_in_Itallia92" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_di_Destinazione_in_Itallia</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Tipo_di_Arma93" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1105,18 +1292,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Provincia77" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Provincia</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Tipologia_Invalidità78" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipologia_Invalidità94" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1127,7 +1303,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Plurilingua79" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Provincia95" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Provincia</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Livello_di_Competenza_Raggiunto96" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Livello_di_Competenza_Raggiunto</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Plurilingua97" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1138,7 +1336,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:relativa_A80" source="nid_cro:RichiestaCertificato" target="nid_cro:Richiedente">
+    <edge id="eid_cro:relativa_A98" source="nid_cro:RichiestaCertificato" target="nid_cro:Richiedente">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1149,7 +1347,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Titolo_di_Studio81" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Titolo_di_Studio99" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1160,7 +1358,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:indirizzo_Azienda82" source="nid_cro:Azienda" target="nid_cro:Indirizzo">
+    <edge id="eid_cro:Grado_Parentela100" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Grado_Parentela</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:indirizzo_Azienda101" source="nid_cro:Azienda" target="nid_cro:Indirizzo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1171,18 +1380,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Motivo_del_Viaggio83" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Motivo_del_Viaggio</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Assicurazione_Sanitaria84" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Assicurazione_Sanitaria102" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1193,7 +1391,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Nome_PA85" source="nid_cro:E" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Motivo_del_Viaggio103" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Motivo_del_Viaggio</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Nome_PA104" source="nid_cro:E" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1204,7 +1413,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_di_Nascita86" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_di_Nascita105" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1215,7 +1424,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Motivo_Espatrio87" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Motivo_Espatrio106" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1226,7 +1435,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Intestazione_dei_Beni_Defunto88" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Classe_Frequentata107" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Classe_Frequentata</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Intestazione_dei_Beni_Defunto108" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1237,7 +1457,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:lavora_Per89" source="nid_cro:Richiedente" target="nid_cro:Azienda">
+    <edge id="eid_cro:Titolo_Corso109" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Titolo_Corso</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:lavora_Per110" source="nid_cro:Richiedente" target="nid_cro:Azienda">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1248,7 +1479,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Sito_PA90" source="nid_cro:E" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Anno_scolastico_di_riferimento111" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Anno_scolastico_di_riferimento</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Sito_PA112" source="nid_cro:E" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1259,7 +1501,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tipo_Agevolazione_Richiesta91" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipo_Agevolazione_Richiesta113" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1270,7 +1512,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Apostilla92" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Apostilla114" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1281,7 +1523,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_Matrimonio93" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_Matrimonio115" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1292,7 +1534,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Regione94" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Ente_Erogatore116" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Ente_Erogatore</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Concorso_Indetto_Con117" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Concorso_Indetto_Con</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Regione118" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1303,7 +1567,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:fData_Matrimonio95" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:fData_Matrimonio119" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1314,18 +1578,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Stato_Nascita_Figlio96" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Stato_Nascita_Figlio</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Data_di_Nascita97" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_di_Nascita120" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1336,7 +1589,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Sesso98" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Stato_Nascita_Figlio121" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Stato_Nascita_Figlio</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Sesso122" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1347,7 +1611,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Subalterno99" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Subalterno123" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1358,18 +1622,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Tipologia_di_familiare100" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tipologia_di_familiare</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Tribunale_che_ha_emesso_la_sentenza101" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tribunale_che_ha_emesso_la_sentenza124" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1380,7 +1633,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Modalità_Consegna102" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipologia_di_familiare125" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tipologia_di_familiare</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Modalità_Consegna126" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1391,7 +1655,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Frazione103" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Frazione127" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1402,7 +1666,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_di_Deposito_Sentenza_di_Adozione104" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Ordinamento128" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Ordinamento</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Lingua_Straniera_Studiata129" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Lingua_Straniera_Studiata</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Data_di_Deposito_Sentenza_di_Adozione130" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1413,7 +1699,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Autorità_che_ha_celebrato_il_matrimonio105" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Autorità_che_ha_celebrato_il_matrimonio131" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1424,7 +1710,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:relativaAGruppo106" source="nid_cro:RichiestaCertificato" target="nid_cro:Gruppo_Richiedenti">
+    <edge id="eid_cro:relativaAGruppo132" source="nid_cro:RichiestaCertificato" target="nid_cro:Gruppo_Richiedenti">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1435,7 +1721,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_di_Adozione107" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_di_Adozione133" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1446,7 +1732,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Uso_Gara_Applato108" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Uso_Gara_Applato134" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1457,7 +1743,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Motivo_Richiesta109" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Motivo_Richiesta135" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1468,7 +1754,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Stato_di_Celebrazione_Matrimonio110" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Stato_di_Celebrazione_Matrimonio136" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1479,7 +1765,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Eta111" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Eta137" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1490,7 +1776,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune112" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune138" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1501,7 +1787,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Motivo_del_ricongiungimento_familiare113" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Vaccinazioni_Obbligatorie_In_Regola139" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Vaccinazioni_Obbligatorie_In_Regola</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Motivo_del_ricongiungimento_familiare140" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1512,7 +1809,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Disponibilità_di_Mezzi_Economici114" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Disponibilità_di_Mezzi_Economici141" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1523,7 +1820,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_Richiedenti115" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Numero_Richiedenti142" source="nid_cro:Gruppo_Richiedenti" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1534,7 +1831,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_Nascita_Defunto116" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Concorso_Abilitazione_Insegnamento143" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Concorso_Abilitazione_Insegnamento</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Data_Nascita_Defunto144" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1545,7 +1853,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_Residenza_Madre117" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Comune_Residenza_Madre145" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1556,7 +1864,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Foglio118" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Foglio146" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1567,7 +1875,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Codice_Fiscale_Azienda119" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Codice_Fiscale_Azienda147" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1578,18 +1886,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_Richiesta120" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Richiesta</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Altri_Dati_rappresentativi121" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Altri_Dati_rappresentativi148" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1600,7 +1897,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Email122" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Luogo_Richiesta149" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Luogo_Richiesta</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Email150" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1611,7 +1919,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Forma_Giuridica123" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Forma_Giuridica151" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1622,7 +1930,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Qualifica_Professionale124" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Qualifica_Professionale152" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1633,7 +1941,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Società_Rappresentata125" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nome_Corso153" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Nome_Corso</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Società_Rappresentata154" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1644,7 +1963,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero126" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Richiesta_Certificato_del_Diploma_di_Maturità155" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Richiesta_Certificato_del_Diploma_di_Maturità</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Concorso_Del156" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Concorso_Del</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Numero157" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1655,7 +1996,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_Decesso127" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_Decesso158" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1666,7 +2007,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_Copie128" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Numero_Copie159" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1677,7 +2018,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Destinazione_Espatrio129" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Destinazione_Espatrio160" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1688,7 +2029,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Denominazione130" source="nid_cro:Azienda" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Denominazione161" source="nid_cro:Azienda" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1699,7 +2040,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_di_ruolo_della_sentenza131" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Numero_di_ruolo_della_sentenza162" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1710,7 +2051,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:richiedenteAppartiene132" source="nid_cro:Richiedente" target="nid_cro:Gruppo_Richiedenti">
+    <edge id="eid_cro:richiedenteAppartiene163" source="nid_cro:Richiedente" target="nid_cro:Gruppo_Richiedenti">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1721,7 +2062,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_di_deposito_della_sentenza133" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_di_deposito_della_sentenza164" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1732,7 +2073,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Comune_Immobile134" source="nid_cro:Immobile" target="nid_rdfs:Literal">
+    <edge id="eid_cro:rilasciato_Da165" source="nid_cro:Certificato" target="nid_cro:E">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:rilasciato_Da</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Corso_di_Laurea166" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Corso_di_Laurea</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Comune_Immobile167" source="nid_cro:Immobile" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1743,7 +2106,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_del_matrimonio135" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_del_matrimonio168" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1754,7 +2117,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Uso_Estero136" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Uso_Estero169" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1765,7 +2128,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:MInorenne137" source="nid_cro:Certificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:MInorenne170" source="nid_cro:Certificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1776,7 +2139,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Documento_Rilasciato_da138" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Documento_Rilasciato_da171" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1787,7 +2150,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_di_Celebrazione_Matrimonio139" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Tipo_Diploma_Conseguito172" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Tipo_Diploma_Conseguito</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Luogo_di_Celebrazione_Matrimonio173" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1798,7 +2172,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Nome_Defunto140" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Nome_Defunto174" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1809,7 +2183,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_di_Sentenza_di_Adozione141" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Concorso_Ambito_Disciplinare175" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Concorso_Ambito_Disciplinare</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Numero_di_Sentenza_di_Adozione176" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1820,7 +2205,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Annualità142" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Annualità177" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1831,18 +2216,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_rilascio_Documento143" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_rilascio_Documento</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Provincia_Battesimo144" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Provincia_Battesimo178" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1853,7 +2227,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Stato_Civile145" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_rilascio_Documento179" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_rilascio_Documento</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Giudizio_Diploma_Conseguito180" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Giudizio_Diploma_Conseguito</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Stato_Civile181" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1864,7 +2260,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:indirizzo_Ente146" source="nid_cro:E" target="nid_cro:Indirizzo">
+    <edge id="eid_cro:indirizzo_Ente182" source="nid_cro:E" target="nid_cro:Indirizzo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1875,7 +2271,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Luogo_Decesso_Defunto147" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Sintesi_CV183" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Sintesi_CV</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Luogo_Decesso_Defunto184" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1886,7 +2293,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Paese_di_Nascita148" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Indirizzo_Istituto_Scolastico_o_Università185" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Indirizzo_Istituto_Scolastico_o_Università</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Paese_di_Nascita186" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1897,7 +2315,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cellulare149" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Cellulare187" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1908,18 +2326,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Data_riconoscimento_Invalidità150" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_riconoscimento_Invalidità</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_cro:Situazione_Occupazionale151" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Situazione_Occupazionale188" source="nid_cro:Richiedente" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1930,7 +2337,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Numero_Telaio_Veicolo152" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Data_riconoscimento_Invalidità189" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_riconoscimento_Invalidità</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Paese_Di_Conseguimento_Titolo_Studio190" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Paese_Di_Conseguimento_Titolo_Studio</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:Numero_Telaio_Veicolo191" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1941,7 +2370,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:Cap153" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
+    <edge id="eid_cro:Cap192" source="nid_cro:Indirizzo" target="nid_rdfs:Literal">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1952,7 +2381,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_cro:indirizzoImmobile154" source="nid_cro:Immobile" target="nid_cro:Indirizzo">
+    <edge id="eid_cro:Data_Fine193" source="nid_cro:RichiestaCertificato" target="nid_rdfs:Literal">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">cro:Data_Fine</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_cro:indirizzoImmobile194" source="nid_cro:Immobile" target="nid_cro:Indirizzo">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

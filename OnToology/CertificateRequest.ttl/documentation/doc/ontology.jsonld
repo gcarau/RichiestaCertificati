@@ -113,7 +113,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.14"
+    "@value" : "0.15"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Altri_Dati_rappresentativi",
@@ -132,6 +132,22 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_Conseguimento_Diploma_di_Maturità",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anno Conseguimento Diploma di Maturità"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Anno_Conseguimento_Diploma_di_Maturità"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_di_Imposta",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -143,6 +159,22 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Anno_di_Imposta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Anno_scolastico_di_riferimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anno scolastico di riferimento"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Anno_scolastico_di_riferimento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -354,6 +386,35 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Classe_Frequentata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Classe Frequentata"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Classe_Frequentata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Classe_di_Concorso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Classe di Concorso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Fiscale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -397,6 +458,19 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Codice_Fiscale_Defunto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Codice_Meccanografico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Codice Meccanografico"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -562,6 +636,138 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Abilitazione_Insegnamento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concorso Abilitazione Insegnamento"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Concorso_Abilitazione_Insegnamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Ambito_Disciplinare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concorso Ambito Disciplinare"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Concorso_Ambito_Disciplinare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Del",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concorso Del"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Concorso_Del"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Concorso_Indetto_Con",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concorso Indetto Con"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Concorso_Indetto_Con"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Copie_aggiuntive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Copie aggiuntive"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Copie_aggiuntive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_Dottorato_di_Ricerca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Corso Dottorato di Ricerca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_Scuola_Specializzazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Corso Scuola Specializzazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Corso_di_Laurea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Corso di Laurea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Conseguimento_Titolo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Conseguimento Titolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Decesso",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -589,6 +795,32 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Data_Decesso_Defunto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Fine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Fine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Data_Inizio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Inizio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -910,6 +1142,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Ente_Erogatore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ente Erogatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Ente_Privato",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -921,6 +1166,22 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Esperienza_Lavorativa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Esperienza Lavorativa"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Esperienza_Lavorativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Eta",
@@ -987,6 +1248,22 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Giudizio_Diploma_Conseguito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Giudizio Diploma Conseguito"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Giudizio_Diploma_Conseguito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Grado_Invalidità",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -998,6 +1275,22 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Grado_Invalidità"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Grado_Parentela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grado Parentela"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Grado_Parentela"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1072,6 +1365,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Indirizzo Ente"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Indirizzo_Ente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
@@ -1088,6 +1384,32 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_Istituto_Scolastico_o_Università",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indirizzo Istituto Scolastico o Università"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Indirizzo_di_Laurea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indirizzo di Laurea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Inoltrato_A",
@@ -1117,6 +1439,74 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Intestazione_dei_Beni_Defunto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Lingua_Straniera_Studiata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lingua Straniera Studiata"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Lingua_Straniera_Studiata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Lingua_di_Competenza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lingua di Competenza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Livelli_di_Competenza_Previsti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Livelli di Competenza Previsti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Livello_Istruzione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Livello Istruzione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Livello_di_Competenza_Raggiunto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Livello di Competenza Raggiunto"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1282,6 +1672,22 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Modalità_di_consegna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Modalità di consegna"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Modalità_di_consegna"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Motivo_Espatrio",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1442,6 +1848,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Corso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nome Corso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Defunto",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1469,6 +1888,19 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Nome_Gruppo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Nome_Istituto_Scolastico_o_Università",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nome Istituto Scolastico o Università"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1554,6 +1986,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Ore_Frequenza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Numero Ore Frequenza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Numero_Richiedenti",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1634,6 +2079,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Ordinamento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ordinamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Ordine_Collegio_di_Appartenenza",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1661,6 +2119,19 @@
   }, {
     "@language" : "iri-based",
     "@value" : "PEC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Paese_Di_Conseguimento_Titolo_Studio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paese Di Conseguimento Titolo Studio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1934,6 +2405,22 @@
     "@id" : "_:genid10"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiesta_Certificato_del_Diploma_di_Maturità",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Richiesta Certificato del Diploma di Maturità"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Richiesta_Certificato_del_Diploma_di_Maturità"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Sede_Legale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1977,6 +2464,22 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Sezione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Sintesi_CV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sintesi CV"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Sintesi_CV"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2190,6 +2693,22 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Diploma_Conseguito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/Richiedente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tipo Diploma Conseguito"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Tipo_Diploma_Conseguito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipo_Documento",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -2238,6 +2757,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Corso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tipologia Corso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Gruppo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -2270,6 +2802,19 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_Laurea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tipologia Laurea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "https://gcarau.github.io/RichiestaCertificati/Tipologia_di_familiare",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -2297,6 +2842,19 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Titolare_Ditta_individuale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Titolo_Corso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Titolo Corso"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2393,6 +2951,22 @@
   }, {
     "@language" : "iri-based",
     "@value" : "Uso_Personale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/Vaccinazioni_Obbligatorie_In_Regola",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://gcarau.github.io/RichiestaCertificati/RichiestaCertificato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vaccinazioni Obbligatorie In Regola"
+  }, {
+    "@language" : "iri-based",
+    "@value" : "Vaccinazioni_Obbligatorie_In_Regola"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2569,17 +3143,14 @@
   "@id" : "https://gcarau.github.io/RichiestaCertificati/rilascia",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato",
+  "@id" : "https://gcarau.github.io/RichiestaCertificati/rilasciato_Da",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/Certificato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "rilasciato"
-  }, {
-    "@language" : "iri-based",
-    "@value" : "rilasciato"
+    "@value" : "rilasciato Da"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://gcarau.github.io/RichiestaCertificati/E"
